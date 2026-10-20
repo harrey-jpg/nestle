@@ -1,0 +1,15 @@
+{
+  "name": "Nestle avatar preview",
+  "mode": "operate",
+  "authority": "User-supplied Nestle design PDF; existing pink and dark themes",
+  "tokens": {
+    "pink": {"background":"#FCE8EC","surface":"#FFF7EE","text":"#5A1E3C","secondary":"#7D4A62","accent":"#B83D63"},
+    "dark": {"background":"#1F1520","surface":"#2C1E2D","text":"#F7E9E4","secondary":"#CDB5BC","accent":"#D98A9B"},
+    "font":"Nunito",
+    "controlRadius":16,
+    "swatchTarget":44
+  },
+  "layout":"Desktop room and customization panel; stacked on phones",
+  "motion":"Real asset clips; paused initially for prefers-reduced-motion",
+  "assets":"User-provided Quaternius glTFs, original procedural room geometry, self-hosted Nunito with OFL"
+}
