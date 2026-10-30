@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "homebody_idle_short_hair_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 80,
+    "h": 208
+   },
+   "duration": 1600
+  },
+  "homebody_idle_short_hair_1": {
+   "frame": {
+    "x": 80,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 80,
+    "h": 208
+   },
+   "duration": 120
+  },
+  "homebody_idle_short_hair_2": {
+   "frame": {
+    "x": 160,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 80,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 80,
+    "h": 208
+   },
+   "duration": 1300
+  }
+ },
+ "meta": {
+  "app": "pxl",
+  "image": "homebody_idle_short_hair.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 240,
+   "h": 208
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "homebody_idle_short_hair",
+    "from": 0,
+    "to": 2,
+    "direction": "forward"
+   }
+  ]
+ }
+}

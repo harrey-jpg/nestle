@@ -1,0 +1,221 @@
+{
+  "results": [
+    {
+      "name": "desktop-day",
+      "activity": "sitting",
+      "animation": "rest-hands",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-day",
+      "activity": "reading",
+      "animation": "page-turn",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-day",
+      "activity": "studying",
+      "animation": "study-notes",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-day",
+      "activity": "gaming",
+      "animation": "game-taps",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-day",
+      "activity": "cuddling",
+      "animation": "cuddle-lean",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-day",
+      "activity": "standing",
+      "animation": "weight-shift",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "sitting",
+      "animation": "rest-hands",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "reading",
+      "animation": "page-turn",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "studying",
+      "animation": "study-notes",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "gaming",
+      "animation": "game-taps",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "cuddling",
+      "animation": "cuddle-lean",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "activity": "standing",
+      "animation": "weight-shift",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "sitting",
+      "animation": "rest-hands",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "reading",
+      "animation": "page-turn",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "studying",
+      "animation": "study-notes",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "gaming",
+      "animation": "game-taps",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "cuddling",
+      "animation": "cuddle-lean",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "activity": "standing",
+      "animation": "weight-shift",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "sitting",
+      "animation": "rest-hands",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "reading",
+      "animation": "page-turn",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "studying",
+      "animation": "study-notes",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "gaming",
+      "animation": "game-taps",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "cuddling",
+      "animation": "cuddle-lean",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "activity": "standing",
+      "animation": "weight-shift",
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true
+    }
+  ],
+  "errors": []
+}

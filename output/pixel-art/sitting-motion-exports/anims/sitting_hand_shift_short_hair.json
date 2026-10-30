@@ -1,0 +1,106 @@
+{
+ "frames": {
+  "sitting_hand_shift_short_hair_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 8500
+  },
+  "sitting_hand_shift_short_hair_1": {
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 500
+  },
+  "sitting_hand_shift_short_hair_2": {
+   "frame": {
+    "x": 256,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 500
+  },
+  "sitting_hand_shift_short_hair_3": {
+   "frame": {
+    "x": 384,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 500
+  }
+ },
+ "meta": {
+  "app": "pxl",
+  "image": "sitting_hand_shift_short_hair.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 512,
+   "h": 208
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "sitting_hand_shift_short_hair",
+    "from": 0,
+    "to": 3,
+    "direction": "forward"
+   }
+  ]
+ }
+}

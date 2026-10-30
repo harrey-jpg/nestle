@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "name": "desktop-his",
+      "owner": "short_hair",
+      "partnerReadOnly": true,
+      "choices": 16,
+      "reload": "pass",
+      "overflow": false
+    },
+    {
+      "name": "desktop-hers",
+      "owner": "long_hair",
+      "partnerReadOnly": true,
+      "choices": 16,
+      "reload": "pass",
+      "overflow": false
+    },
+    {
+      "name": "mobile-hers",
+      "owner": "long_hair",
+      "partnerReadOnly": true,
+      "choices": 16,
+      "reload": "pass",
+      "overflow": false
+    },
+    {
+      "name": "mobile-his",
+      "owner": "short_hair",
+      "partnerReadOnly": true,
+      "choices": 16,
+      "reload": "pass",
+      "overflow": false
+    }
+  ],
+  "rapidChanges": "pass",
+  "assetFailure": "previous expression retained",
+  "storageFailure": "visit-only fallback",
+  "errors": []
+}

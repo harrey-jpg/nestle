@@ -1,22 +1,102 @@
 <!doctype html>
-<html lang="en" data-theme="pink"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#FCE8EC">
-<title>Nestle · Your little world</title><link rel="stylesheet" href="/style.css">
-<script type="importmap">{"imports":{"three":"/vendor/build/three.module.js","three/addons/":"/vendor/examples/jsm/"}}</script>
-</head><body>
-<header class="site-header"><a class="wordmark" href="/" aria-label="Nestle home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16 16 6l11 10v11H5Z"/><path d="M11 24v-9l10 9v-9"/></svg>nestle<span class="brand-dot">.</span></a><span class="header-note">A little closer, even from afar.</span><button id="theme" class="quiet-button" aria-label="Switch to dark mode"><span id="theme-icon"></span><span id="theme-label">Dark mode</span></button></header>
-<main><div class="page-intro"><div><h1>Your little world.</h1><p>Two mini yous. A place to make your own.</p></div><span class="preview-tag">Avatar preview</span></div>
-<div class="workspace"><section class="room-panel" aria-label="Interactive shared room">
-<div class="room-top"><div class="room-title"><span class="status-dot"></span><span id="room-title">Mika & Jun’s place</span></div><button id="reset-view" class="icon-button" aria-label="Reset room view" title="Reset view"></button></div>
-<div id="scene" role="img" aria-label="Two original Nestle characters in a furnished 3D room. Drag to rotate and scroll or pinch to zoom."></div>
-<div id="loading" role="status"><span class="loader"></span><strong>Making room for you two…</strong><span>Loading your 3D characters</span></div>
-<div class="room-bottom"><span class="orbit-hint"><span id="drag-icon"></span>Drag to look around</span><div class="view-controls"><button id="zoom-out" class="icon-button" aria-label="Zoom out">−</button><button id="zoom-in" class="icon-button" aria-label="Zoom in">+</button></div></div>
-<div class="scene-caption"><span class="mini-dot rose"></span><span id="caption-a">Mika · Rose hoodie</span><span class="caption-divider"></span><span class="mini-dot sage"></span><span id="caption-b">Jun · Sage everyday</span></div></section>
-<aside class="customizer" aria-labelledby="customize-title"><div class="panel-heading"><h2 id="customize-title">Make yourself at home</h2><p>A little you, with your own personality.</p></div>
-<div class="character-tabs" role="group" aria-label="Choose character to customize"><button data-person="0" class="selected" aria-pressed="true"><span class="initial rose">M</span><span id="tab-name-a">Mika</span><span class="edit-icon"></span></button><button data-person="1" aria-pressed="false"><span class="initial sage">J</span><span id="tab-name-b">Jun</span><span class="edit-icon"></span></button></div>
-<div class="form-fields"><label for="name">Name</label><input id="name" maxlength="20" value="Mika" autocomplete="off"><div class="two-fields"><div><label for="head">Hair & head</label><select id="head"><option value="SoftCrop">Soft crop</option><option value="SideSwept">Side-swept</option><option value="Bob">Bob</option><option value="LongFringe">Long fringe</option><option value="CurlyPuff">Curly puff</option><option value="LowPonytail">Low ponytail</option></select></div><div><label for="outfit">Outfit</label><select id="outfit"><option value="Hoodie">Cozy hoodie</option><option value="TShirt">T-shirt & trousers</option><option value="Sweater">Soft sweater</option><option value="Dress">Casual dress</option></select></div></div></div>
-<div class="expression-field form-fields"><label for="expression">Expression</label><select id="expression"><option>Neutral</option><option>Happy</option><option>Sad</option><option>Sleepy</option><option>Surprised</option><option>Affectionate</option></select></div><fieldset><legend>Skin tone</legend><div id="skin-colors" class="swatches"></div></fieldset><fieldset><legend>Hair color</legend><div id="hair-colors" class="swatches"></div></fieldset><fieldset><legend>Outfit color</legend><div id="outfit-colors" class="swatches"></div></fieldset>
-<div class="animation-section"><div class="section-label"><h3>A little movement</h3><button id="pause" class="text-button" aria-pressed="false">Pause</button></div><div class="animation-buttons" role="group" aria-label="Character animation"><button data-animation="Idle" class="selected" aria-pressed="true"><span class="anim-icon" data-icon="idle"></span>Idle</button><button data-animation="Walk" aria-pressed="false"><span class="anim-icon" data-icon="walk"></span>Walk</button><button data-animation="Wave" aria-pressed="false"><span class="anim-icon" data-icon="wave"></span>Wave</button><button data-animation="Sit" aria-pressed="false">Sit</button><button data-animation="Dance" aria-pressed="false">Dance</button><button data-animation="Hug" aria-pressed="false">Hug together</button></div><p class="motion-note" id="motion-note">Changes apply to Mika. Jun keeps their own look.</p></div>
-<button id="save" class="primary-button"><span id="save-icon"></span>Save our looks</button><p id="save-status" class="save-status" aria-live="polite">Saved on this device only.</p></aside></div>
-<footer class="page-footer"><p><strong>Real models. Room to grow.</strong> Original Nestle base · 6 hairstyles · 4 outfits.</p><details><summary>About these avatars</summary><p>This is the first original rigged Nestle model based on the approved concept. Try six hairstyles, four outfits, facial expressions, and starter animations. Hug moves both partners together. Appearance saves on this device only. This is a modeling prototype; final silhouette refinement, clothing deformation, and physical-phone performance need further review. No AI or live social features are connected.</p><a href="/assets/original/nestle-original-v1.glb" download>Download original GLB</a><a href="/quaternius.html">Earlier Quaternius preview</a></details></footer></main>
-<script type="module" src="/app.js"></script></body></html>
+<html lang="en" data-time="morning">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fce8ec">
+  <meta name="description" content="A little home for two. Your shared room follows the light of your day.">
+  <title>Nestle · Our little home</title>
+  <link rel="stylesheet" href="/home.css">
+  <link rel="stylesheet" href="/messages.css">
+  <link rel="preload" as="image" href="/assets/home/morning.png">
+  <link rel="preload" as="image" href="/assets/home/night.png">
+  <script src="/assets/vendor/supabase.js"></script>
+  <script type="module" src="/home.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Nestle home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m5 15 11-9 11 9v12H5Z"/><path d="M11 24v-9l10 9v-9"/></svg>nestle<span>.</span></a>
+    <span class="brand-note">A little closer, even from afar.</span>
+    <span class="home-label"><span class="home-dot" aria-hidden="true"></span>Our place</span>
+  </header>
+  <main>
+    <div class="page-intro" hidden>
+      <div><h1>Our little home.</h1><p>Where the everyday feels a little warmer.</p></div>
+      <div class="couple-portraits" role="img" aria-label="Your two pixel portraits">
+        <img src="/assets/couple/portrait_long_hair_neutral.png" width="64" height="64" alt="">
+        <span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 5c-2-2-5-1-8 2-3-3-6-4-8-2-3 3-1 7 8 14 9-7 11-11 8-14Z"/></svg></span>
+        <img src="/assets/couple/portrait_short_hair_neutral.png" width="64" height="64" alt="">
+      </div>
+    </div>
+    <section id="character-setup" class="character-setup welcome" aria-labelledby="setup-title">
+      <div><h1 id="setup-title">Is this Harry or Alexa?</h1><p>A little home, just for you two.<br>Choose who’s opening the app on this device.</p></div>
+      <div class="identity-choices">
+        <button type="button" data-choose-profile="alexa" disabled><img src="/assets/couple/portrait_long_hair_neutral.png" width="64" height="64" alt=""><span>Alexa</span></button>
+        <button type="button" data-choose-profile="harry" disabled><img src="/assets/couple/portrait_short_hair_neutral.png" width="64" height="64" alt=""><span>Harry</span></button>
+      </div>
+      <p id="setup-status" role="status">Opening your home…</p>
+      <button id="connection-retry" type="button" hidden>Try again</button>
+    </section>
+    <nav id="app-navigation" class="app-navigation" aria-label="Your shared space" hidden>
+      <button id="nav-home" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8v10h-7v-7h-4v7H3Z"/></svg>Home</button>
+      <button id="nav-messages" type="button" aria-pressed="false" aria-controls="messages-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 5Z"/></svg>Messages<span id="messages-badge" class="messages-badge" hidden></span></button>
+    </nav>
+    <section id="messages-panel" class="messages-panel" aria-labelledby="messages-title" hidden>
+      <div class="messages-heading"><div><h1 id="messages-title">Messages</h1><p id="messages-subtitle">Just you two.</p></div><img id="messages-portrait" width="48" height="48" alt=""></div>
+      <div class="conversation">
+        <div class="conversation-top"><p id="messages-connection" role="status">Opening your conversation…</p><button id="load-older-messages" type="button" hidden>Earlier messages</button></div>
+        <div id="message-list" class="message-list" role="log" aria-label="Your private conversation" aria-live="polite" aria-relevant="additions text" tabindex="0"></div>
+        <p id="messages-empty" class="messages-empty" hidden>A little hello goes a long way.<br>Write the first message.</p>
+        <button id="messages-refresh" class="messages-refresh" type="button" hidden>Try again</button>
+        <form id="message-form" class="message-form">
+          <label class="visually-hidden" for="message-body">Your message</label>
+          <textarea id="message-body" rows="2" placeholder="Write something…" maxlength="8000" aria-describedby="message-hint"></textarea>
+          <button id="send-message" type="submit" aria-label="Send message" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 3 18 9-18 9 4-9Z M7 12h14"/></svg><span>Send</span></button>
+          <div class="message-tools">
+            <button id="attach-photo" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1"/><path d="m3 17 5-5 4 4 4-6 5 7"/></svg>Photo / GIF</button>
+            <input id="message-photo" type="file" accept="image/jpeg,image/png,image/gif,image/webp" hidden>
+            <button id="pick-emoji" type="button" aria-expanded="false" aria-controls="emoji-picker"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14q4 5 8 0M8 8v2m8-2v2"/></svg>Emoji</button>
+            <button id="enable-notifications" type="button">Enable notifications</button>
+          </div>
+          <div id="emoji-picker" class="emoji-picker" aria-label="Choose an emoji" hidden></div>
+          <div id="attachment-preview" class="attachment-preview" hidden><img id="attachment-image" alt="Photo ready to send"><span id="attachment-name"></span><button id="remove-attachment" type="button">Remove</button></div>
+          <p id="message-hint" class="message-hint" role="status">Only Alexa and Harry can open this conversation.</p>
+        </form>
+      </div>
+    </section>
+    <button id="message-toast" class="message-toast" type="button" hidden></button>
+    <section class="home" aria-labelledby="room-title" hidden>
+      <div class="room-heading"><h2 id="room-title">The living room</h2><div class="room-clock"><span id="phase-icon" aria-hidden="true"></span><span id="phase-name">At home</span><span class="clock-divider" aria-hidden="true"></span><time id="local-time">—</time></div></div>
+      <div class="room-stage" id="room-stage" role="group" aria-label="Your two pixel characters at home in a softly illustrated living room.">
+        <img class="room-art room-morning" id="morning-art" src="/assets/home/morning.png" width="1448" height="1086" alt="" fetchpriority="high">
+        <img class="room-art room-night" id="night-art" src="/assets/home/night.png" width="1448" height="1086" alt="">
+        <button type="button" class="pixel-person person-one" data-character="long_hair" aria-label="Long-haired character" disabled><span class="character-tag" hidden>You</span><span class="sprite-body" aria-hidden="true"></span><span class="reading-pages" aria-hidden="true"></span><span class="study-tools" aria-hidden="true"></span><span class="game-controls" aria-hidden="true"></span><span class="resting-hands" aria-hidden="true"></span></button>
+        <button type="button" class="pixel-person person-two" data-character="short_hair" aria-label="Short-haired character" disabled><span class="character-tag" hidden>You</span><span class="sprite-body" aria-hidden="true"></span><span class="reading-pages" aria-hidden="true"></span><span class="study-tools" aria-hidden="true"></span><span class="game-controls" aria-hidden="true"></span><span class="resting-hands" aria-hidden="true"></span></button>
+        <div class="room-loading" id="room-loading" role="status"><span class="loading-dot" aria-hidden="true"></span><p>Opening your home…</p></div>
+        <div class="room-error" id="room-error" role="alert" hidden><h3>Your room couldn’t load.</h3><p>Try opening it again.</p><button id="retry" type="button">Try again</button></div>
+      </div>
+      <div class="room-footer">
+        <div class="room-mood"><span class="mood-dot" aria-hidden="true"></span><p id="room-mood">A little space, just for you two.</p></div>
+        <div class="room-controls">
+          <button id="expression-open" type="button" aria-expanded="false" aria-controls="expression-panel" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14c2 3 6 3 8 0M8 9h.01M16 9h.01"/></svg><span>My expression</span></button>
+          <button id="motion-toggle" type="button" aria-pressed="false" aria-label="Pause character movement" title="Pause character movement"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><span id="motion-label">Pause</span></button>
+          <button id="fullscreen" type="button" aria-label="View room fullscreen" title="View room fullscreen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
+        </div>
+      </div>
+    </section>
+    <section id="expression-panel" class="expression-panel" aria-labelledby="expression-title" hidden>
+      <div class="expression-heading"><div><h2 id="expression-title">How are you feeling?</h2><p>Your expression, your choice.</p></div><button id="expression-close" type="button" aria-label="Close expression picker"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+      <div id="expression-grid" class="expression-grid" role="group" aria-label="Choose your expression"></div>
+      <p id="expression-status" class="expression-status" role="status" aria-live="polite"></p>
+    </section>
+    <footer class="page-footer" hidden>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg><span>Light follows the time on this device<span id="time-zone"></span>.</span></p>
+      <details><summary>Life at home</summary><p>Your characters choose their own activities from their daily routines. After you spend at least a minute away, come back to see what they’re doing. One might read while the other plays a game, or study while the other relaxes. Cuddling brings them together. Mornings lean toward studying and reading; evenings bring games and cuddles. They stay settled while you watch. You can change your own expression, and Pause keeps the scene still. Light follows this device’s clock: morning at 6 am, afternoon at 11 am, evening at 5 pm and night at 8 pm.</p></details>
+    </footer>
+    <section id="shared-connection" class="shared-connection" hidden>
+      <p id="connection-status" role="status"></p>
+    </section>
+    <noscript><p class="noscript">Enable JavaScript to see your characters and sync the room’s light with your clock.</p></noscript>
+  </main>
+</body>
+</html>

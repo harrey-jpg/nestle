@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "name": "desktop-day",
+      "visibleSceneStable": true,
+      "returnAfterMinute": true,
+      "pause": true,
+      "poses": 6,
+      "expressionPreserved": true
+    },
+    {
+      "name": "desktop-night",
+      "visibleSceneStable": true,
+      "returnAfterMinute": true,
+      "pause": true,
+      "poses": 6,
+      "expressionPreserved": true
+    },
+    {
+      "name": "mobile-day",
+      "visibleSceneStable": true,
+      "returnAfterMinute": true,
+      "pause": true,
+      "poses": 6,
+      "expressionPreserved": true
+    },
+    {
+      "name": "mobile-night",
+      "visibleSceneStable": true,
+      "returnAfterMinute": true,
+      "pause": true,
+      "poses": 6,
+      "expressionPreserved": true
+    }
+  ],
+  "errors": []
+}

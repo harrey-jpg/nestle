@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "name": "desktop-day",
+      "noActivityControls": true,
+      "foregroundStable": true,
+      "awayChanges": true,
+      "expressionIndependent": true,
+      "pause": true,
+      "persistence": true
+    },
+    {
+      "name": "desktop-night",
+      "noActivityControls": true,
+      "foregroundStable": true,
+      "awayChanges": true,
+      "expressionIndependent": true,
+      "pause": true,
+      "persistence": true
+    },
+    {
+      "name": "mobile-day",
+      "noActivityControls": true,
+      "foregroundStable": true,
+      "awayChanges": true,
+      "expressionIndependent": true,
+      "pause": true,
+      "persistence": true
+    },
+    {
+      "name": "mobile-night",
+      "noActivityControls": true,
+      "foregroundStable": true,
+      "awayChanges": true,
+      "expressionIndependent": true,
+      "pause": true,
+      "persistence": true
+    }
+  ],
+  "errors": []
+}

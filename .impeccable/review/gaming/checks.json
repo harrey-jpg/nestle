@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "turnFrame": true,
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true,
+      "gamingOnly": true
+    },
+    {
+      "name": "mobile",
+      "turnFrame": true,
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true,
+      "gamingOnly": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "welcome": true,
+  "noEmail": true,
+  "privateDeviceLink": true,
+  "twoProfiles": true,
+  "livePartnerExpressions": true,
+  "ownCharacterOnly": true,
+  "rapidChanges": true,
+  "reload": true,
+  "offlineReconnect": true,
+  "stableForeground": true,
+  "pause": true,
+  "errors": []
+}

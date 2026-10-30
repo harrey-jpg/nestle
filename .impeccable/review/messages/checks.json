@@ -1,0 +1,18 @@
+{
+  "isolatedLiveBackend": true,
+  "emptyState": true,
+  "historyPagination": true,
+  "unreadBadge": true,
+  "twoSessionSync": true,
+  "deliveredVsSeen": true,
+  "textEscaped": true,
+  "persistedRetry": true,
+  "noDuplicateRetry": true,
+  "offlineDraft": true,
+  "reloadHistory": true,
+  "multiline": true,
+  "keyboardSend": true,
+  "homeNavigation": true,
+  "overflow": false,
+  "errors": []
+}

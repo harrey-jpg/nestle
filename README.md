@@ -1,28 +1,35 @@
-# Nestle avatar preview
+# Nestle · Our little home
 
-Run `npm install` once, then `npm start`. Open http://localhost:5173.
+Run `npm install`, then `npm start`. Open [the local app](http://localhost:5173).
 
-Two original Nestle characters share a furnished room. Customize each partner independently with six hairstyles, four outfits, five skin tones, hair/clothing colors, and five facial expressions plus neutral. Starter clips include Idle, Walk (in place), Wave, Sit, Dance, and a synchronized Hug pose. Drag to orbit, use zoom controls, switch pink/dark themes, and save appearances to this browser's local storage.
+Nestle is a shared home for Alexa and Harry. First launch asks “Is this Harry or Alexa?” with two portrait choices and no email, password or setup-link fields. Connected devices remember their fixed profile. Only the owner’s expression can be edited; both expressions sync through the live Supabase backend about every five seconds while visible and immediately on returning.
 
-This is an editable first modeling pass based on the approved concept, not the production mobile app. Rounded primitive-derived geometry, mostly rigid weights, and starter animations still need art refinement, clothing/contact polish, and physical-phone performance validation. Location sharing, chat, camera, widgets, and AI are not connected.
+## Connect your devices
 
-## Original assets
-- Approved concept: `output/concepts/nestle-original-characters-v1.png`.
-- Editable Blender source: `output/models/nestle-original-v1.blend`.
-- Runtime model: `public/assets/original/nestle-original-v1.glb`.
-- Variant/animation manifest: `public/assets/original/manifest.json`.
-- Reproducible Blender authoring script: `scripts/build-original-avatars.py`.
+Choose Harry or Alexa once; the browser remembers that profile. No setup link or previously connected device is needed. Clearing browser storage returns to the name choice. This is self-selected identity: anyone who can reach the app can choose either profile.
 
-The GLB contains one shared skeleton and all hair/outfit modules; choose exactly one of each. Facial expressions use morph targets. See `output/models/README.md` for assembly and rebuild instructions. Blender 4.5 LTS is required only to rebuild/edit the source, not to run the preview.
+Apply `backend/simple-profile-choice.sql` in the existing Supabase project's SQL editor before using the new connection flow. It replaces invite-gated connection with self-service profile binding, keeps current bindings and revocations, and retires link creation. This session has not applied that migration. The frontend still runs on localhost on this computer; phones need a hosted HTTPS app address.
 
-The earlier Quaternius preview remains at http://localhost:5173/quaternius.html with separate saved appearances.
+## Life at home
 
-## Assets and attribution
-Nestle's new geometry, rig, facial targets, animations, and room are authored in project source. The concept image was generated with imagegen; its exact prompt is included. No Quaternius geometry or motion data is reused in the original model.
+The original illustrated room and approved pixel characters are preserved, including all sixteen expressions and the corrected hair, cross-legged study, sofa and cuddle poses. Device-local time controls morning/night lighting. A shared server routine follows Manila time and chooses among fourteen combinations of six activities. No activity picker exists. Poses stay settled while watched; returning after a minute away refreshes the routine, subject to a one-minute server cooldown. Partner expressions sync independently. Pause, reduced motion and fullscreen remain supported.
 
-The earlier preview includes Quaternius Ultimate Modular Men (February 2022), supplied by the user, with its original CC0 license preserved at `public/assets/characters/License.txt`. The self-hosted Nunito font includes its SIL Open Font License. No project-wide license is assigned to the original work yet.
+Network loss keeps the last room visible and disables expression changes until reconnection. Writes are confirmed by the server before being labelled shared. Revision checks protect simultaneous edits; older polls cannot roll back confirmed changes.
 
-## Checks
-`npm test` checks the earlier assets plus original modules, shared rig, morph targets, buffer bounds, Three.js animation evaluation, and key gesture/seat positions. Browser captures are under `.impeccable/review/`; the original-model captures are a work-in-progress visual record. The complete new UI/asset combination has not yet finished its desktop/phone review.
+## Private messages
 
-Dependencies, Blender's portable runtime, download caches, environment files, and Blender backup copies are excluded from Git. The original `.blend` and GLB are included.
+Home and Messages navigation opens one saved conversation for Alexa and Harry. Chat supports text, emoji, private photos and animated GIF uploads, optional captions, unread counts, history and Sent / Delivered / Seen receipts. Realtime changes refresh chat immediately, with a 2.5-second visible-app fallback. Native Android/iPhone projects and the push pipeline are prepared; background alerts still require Firebase/APNs configuration, signing and physical-phone checks. See [mobile setup](MOBILE.md).
+
+Drafts and failed sends are retained in local browser storage where available. Failed messages have an explicit Retry action; retries reuse the same ID to prevent duplicates. Message bodies render as text, including HTML-looking content. Only linked, non-revoked devices can access the conversation, and the server derives the sender from the fixed profile binding. Messages cannot be edited or deleted by clients.
+
+## Implementation and checks
+
+Main app: `public/index.html`, `home.css`, `home.js`, `shared-home.mjs`, `character-state.mjs`, `room-activities.mjs` and `room-time.mjs`. Messages use `messages.mjs`, `message-store.mjs` and `messages.css`. Original schema sources include `backend/private-home.sql` and `backend/messages.sql`; `backend/simple-profile-choice.sql` updates connection behavior without changing legacy Home entries or notes. Only a publishable key ships in the client. Database rules enforce fixed device ownership and own-expression writes after the self-service choice.
+
+Supabase client 2.118.0 is pinned. The postinstall script copies its browser build and MIT license into `public/assets/vendor/`; no external JavaScript CDN is used. Editable artwork and approval records remain in `output/pixel-art/`, with runtime copies under `public/assets/`. No Adorable Home game artwork is bundled.
+
+Run `npm test` for automated checks, including first connection and session restoration without an invite. Earlier live checks verified two-profile sync, the former invite-gated access controls, persistence and recovery; they do not validate the new migration. Temporary verification devices remain revoked. Media browser checks use an isolated mocked backend; notification tests use mocked FCM delivery. Captures include `.impeccable/review/chat-media/`. Native builds and physical phones remain unverified. See `backend/README.md` and `MOBILE.md` for details.
+
+## Retained work
+
+Legacy 3D assets, Blender sources and scripts remain separate; the main app does not load them. The Quaternius preview at `/quaternius.html` retains its CC0 license. Nunito retains its SIL Open Font License. Original room prompts and pixel approval records are retained. Caches, setup links, session data, dependencies, environment files and Blender backups are excluded from Git.

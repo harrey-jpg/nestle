@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "revision": 2,
   "asset": "nestle-original-v1.glb",
   "original": true,
   "hair": [
@@ -52,7 +53,7 @@
   ],
   "source": "output/models/nestle-original-v1.blend",
   "notes": [
-    "Starter procedural model based on approved concept; visual refinement remains possible.",
+    "Refined original base: swept hair, continuous garments, blended joints and surface-fitted expressions.",
     "Hug is an arm pose; viewer must position and synchronize both partners.",
     "Sit transitions into a held pose and requires a seat in the viewer.",
     "Hidden hair/outfit variants remain in GLB; choose one of each in the viewer."

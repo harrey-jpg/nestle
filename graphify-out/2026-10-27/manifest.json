@@ -1,0 +1,2292 @@
+{
+  "android/app/build.gradle": {
+    "mtime": 1793003907.0514703,
+    "seen": 1793112110.587551,
+    "ast_hash": "93df488cd17f4f2884a021f821051a9a",
+    "semantic_hash": "93df488cd17f4f2884a021f821051a9a"
+  },
+  "android/app/capacitor.build.gradle": {
+    "mtime": 1793033089.1314676,
+    "seen": 1793112110.587551,
+    "ast_hash": "83faaf9de0a2a523ffd079ab614d7911",
+    "semantic_hash": "83faaf9de0a2a523ffd079ab614d7911"
+  },
+  "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.588557,
+    "ast_hash": "fbaf7cc870c663eb52dcf218531c439d",
+    "semantic_hash": "fbaf7cc870c663eb52dcf218531c439d"
+  },
+  "android/app/src/main/java/app/nestle/privatehome/MainActivity.java": {
+    "mtime": 1793003907.0494623,
+    "seen": 1793112110.588557,
+    "ast_hash": "3071bb8fb4421763bc5d1916677c5838",
+    "semantic_hash": "3071bb8fb4421763bc5d1916677c5838"
+  },
+  "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.588557,
+    "ast_hash": "e91b4501c14da821682fa5c26a16d616",
+    "semantic_hash": "e91b4501c14da821682fa5c26a16d616"
+  },
+  "android/build.gradle": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.588557,
+    "ast_hash": "682315a426653617c6a74fc12bef55b6",
+    "semantic_hash": "682315a426653617c6a74fc12bef55b6"
+  },
+  "android/capacitor.settings.gradle": {
+    "mtime": 1793033089.1314676,
+    "seen": 1793112110.588557,
+    "ast_hash": "f9560c0f2234c107306fb5268d1d77c6",
+    "semantic_hash": "f9560c0f2234c107306fb5268d1d77c6"
+  },
+  "android/gradlew": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5895631,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": "794669d78aef1dd5c7d889ef618b311a"
+  },
+  "android/settings.gradle": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5895631,
+    "ast_hash": "f6cd925b3f859e23c3d819fe2459e0e4",
+    "semantic_hash": "f6cd925b3f859e23c3d819fe2459e0e4"
+  },
+  "android/variables.gradle": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5895631,
+    "ast_hash": "4b3fce8ea2a515a9d2e47e74757172ec",
+    "semantic_hash": "4b3fce8ea2a515a9d2e47e74757172ec"
+  },
+  "backend/chat-media.sql": {
+    "mtime": 1793004846.8440168,
+    "seen": 1793112110.5895631,
+    "ast_hash": "464e2c5f27a558814b6ee2d4fd4cc702",
+    "semantic_hash": "464e2c5f27a558814b6ee2d4fd4cc702"
+  },
+  "backend/chat-push-wakeup.sql": {
+    "mtime": 1793005099.4600213,
+    "seen": 1793112110.5895631,
+    "ast_hash": "9aa9561f71b7b397d56a65cc2a320a88",
+    "semantic_hash": "9aa9561f71b7b397d56a65cc2a320a88"
+  },
+  "backend/chat-push.sql": {
+    "mtime": 1793004965.2581701,
+    "seen": 1793112110.5895631,
+    "ast_hash": "4c3a37be19efbdeb3a259675b11176a1",
+    "semantic_hash": "4c3a37be19efbdeb3a259675b11176a1"
+  },
+  "backend/cleanup-message-qa.sql": {
+    "mtime": 1793002200.830744,
+    "seen": 1793112110.5895631,
+    "ast_hash": "1702983cd6c2df01a8aabba49565f093",
+    "semantic_hash": "1702983cd6c2df01a8aabba49565f093"
+  },
+  "backend/functions/chat-push/index.ts": {
+    "mtime": 1793004090.7462735,
+    "seen": 1793112110.5895631,
+    "ast_hash": "ac29ab8b476008115bd5b1d90f7c3a0f",
+    "semantic_hash": "ac29ab8b476008115bd5b1d90f7c3a0f"
+  },
+  "backend/messages.sql": {
+    "mtime": 1792997474.3504415,
+    "seen": 1793112110.5905628,
+    "ast_hash": "46009234c2c643e206c44297ba233c8a",
+    "semantic_hash": "46009234c2c643e206c44297ba233c8a"
+  },
+  "backend/private-home.sql": {
+    "mtime": 1792945579.9696987,
+    "seen": 1793112110.5905628,
+    "ast_hash": "443b6f4c78db8afbabe71db951b3d54f",
+    "semantic_hash": "443b6f4c78db8afbabe71db951b3d54f"
+  },
+  "capacitor.config.json": {
+    "mtime": 1793005099.4600213,
+    "seen": 1793112110.5905628,
+    "ast_hash": "32de77a69c31493272826082df0062ad",
+    "semantic_hash": "32de77a69c31493272826082df0062ad",
+    "ast_empty": true
+  },
+  "ios/App/App/AppDelegate.swift": {
+    "mtime": 1793004045.6348162,
+    "seen": 1793112110.5905628,
+    "ast_hash": "824fd212a9d13c2ff04a856b290470e5",
+    "semantic_hash": "824fd212a9d13c2ff04a856b290470e5"
+  },
+  "ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5905628,
+    "ast_hash": "7453c3002126811a57c38b2740f990cf",
+    "semantic_hash": "7453c3002126811a57c38b2740f990cf",
+    "ast_empty": true
+  },
+  "ios/App/App/Assets.xcassets/Contents.json": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5905628,
+    "ast_hash": "31cc68f34934a99c0b0c1bebde56309c",
+    "semantic_hash": "31cc68f34934a99c0b0c1bebde56309c",
+    "ast_empty": true
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/Contents.json": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5905628,
+    "ast_hash": "1162e1cddd7ea769bcacdd1aa7b4ac72",
+    "semantic_hash": "1162e1cddd7ea769bcacdd1aa7b4ac72",
+    "ast_empty": true
+  },
+  "ios/App/App/SceneDelegate.swift": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5905628,
+    "ast_hash": "109aded755e8064cd0c2de99e039aeb5",
+    "semantic_hash": "109aded755e8064cd0c2de99e039aeb5"
+  },
+  "ios/App/CapApp-SPM/Package.swift": {
+    "mtime": 1793003910.818628,
+    "seen": 1793112110.5905628,
+    "ast_hash": "17465eda2cdbaa249dfd9e60c26c6811",
+    "semantic_hash": "17465eda2cdbaa249dfd9e60c26c6811"
+  },
+  "ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift": {
+    "mtime": 1791382562.0,
+    "seen": 1793112110.5905628,
+    "ast_hash": "0d92cb44a62bc3f2d73464a2e4f9a890",
+    "semantic_hash": "0d92cb44a62bc3f2d73464a2e4f9a890"
+  },
+  "package.json": {
+    "mtime": 1793004675.6683064,
+    "seen": 1793112110.5905628,
+    "ast_hash": "f7c52672681430bb2a7c334c6adf0c4c",
+    "semantic_hash": "f7c52672681430bb2a7c334c6adf0c4c"
+  },
+  "public/app-quaternius.js": {
+    "mtime": 1792916705.2079873,
+    "seen": 1793112110.5905628,
+    "ast_hash": "341dc9fb448f213eb5e3f1781551c91d",
+    "semantic_hash": "341dc9fb448f213eb5e3f1781551c91d"
+  },
+  "public/app.js": {
+    "mtime": 1792916705.2089863,
+    "seen": 1793112110.5915632,
+    "ast_hash": "983a94ab0a7d7df1bd55cff610f6a17b",
+    "semantic_hash": "983a94ab0a7d7df1bd55cff610f6a17b"
+  },
+  "public/assets/original/manifest.json": {
+    "mtime": 1792917284.5523815,
+    "seen": 1793112110.5915632,
+    "ast_hash": "dd2a3e1e9e4dff7fc6b02abad8f9f563",
+    "semantic_hash": "dd2a3e1e9e4dff7fc6b02abad8f9f563"
+  },
+  "public/character-state.mjs": {
+    "mtime": 1792945111.4557228,
+    "seen": 1793112110.5915632,
+    "ast_hash": "78ac896be01d0a0bbb31ed7759465104",
+    "semantic_hash": "78ac896be01d0a0bbb31ed7759465104"
+  },
+  "public/chat-media.mjs": {
+    "mtime": 1793003797.448514,
+    "seen": 1793112110.5915632,
+    "ast_hash": "e3c31305231eda1fbb170e935ec072f6",
+    "semantic_hash": "e3c31305231eda1fbb170e935ec072f6"
+  },
+  "public/home.js": {
+    "mtime": 1793116497.7399457,
+    "seen": 1793116616.2584474,
+    "ast_hash": "ac3a0ac1cf89dfd2dd5c62e7a579c5a2",
+    "semantic_hash": ""
+  },
+  "public/message-store.mjs": {
+    "mtime": 1793003797.4495232,
+    "seen": 1793112110.5915632,
+    "ast_hash": "7edd0e2d70dae0ca47ea71d591dbfde2",
+    "semantic_hash": "7edd0e2d70dae0ca47ea71d591dbfde2"
+  },
+  "public/messages.mjs": {
+    "mtime": 1793004965.2571683,
+    "seen": 1793112110.5915632,
+    "ast_hash": "abfc27588e8f26acb95ef3113165d793",
+    "semantic_hash": "abfc27588e8f26acb95ef3113165d793"
+  },
+  "public/native-bridge.mjs": {
+    "mtime": 1793003902.4499123,
+    "seen": 1793112110.5915632,
+    "ast_hash": "ce83bef8d3f23229e96da178c6413f65",
+    "semantic_hash": "ce83bef8d3f23229e96da178c6413f65"
+  },
+  "public/notifications.mjs": {
+    "mtime": 1793003902.4509168,
+    "seen": 1793112110.5925634,
+    "ast_hash": "92ed543282367d70050e6a3790295637",
+    "semantic_hash": "92ed543282367d70050e6a3790295637"
+  },
+  "public/room-activities.mjs": {
+    "mtime": 1792944057.4985754,
+    "seen": 1793112110.5925634,
+    "ast_hash": "bf2e9c056c4cad3bb8fb1f38c6262b77",
+    "semantic_hash": "bf2e9c056c4cad3bb8fb1f38c6262b77"
+  },
+  "public/room-time.mjs": {
+    "mtime": 1792920383.7179327,
+    "seen": 1793112110.5925634,
+    "ast_hash": "8819f48d5e35277afa9951f3df43f769",
+    "semantic_hash": "8819f48d5e35277afa9951f3df43f769"
+  },
+  "public/shared-home.mjs": {
+    "mtime": 1793116497.7389457,
+    "seen": 1793116616.2584474,
+    "ast_hash": "7a8a333d7c375b502d1009dc88f1764b",
+    "semantic_hash": ""
+  },
+  "scripts/build-mobile.mjs": {
+    "mtime": 1793004674.7734256,
+    "seen": 1793112110.5925634,
+    "ast_hash": "c195bf2d2907b2e34889fbd7068c7ceb",
+    "semantic_hash": "c195bf2d2907b2e34889fbd7068c7ceb"
+  },
+  "scripts/build-original-avatars.py": {
+    "mtime": 1792917447.6803992,
+    "seen": 1793112110.5925634,
+    "ast_hash": "2226a14cc3e01892679a3d578f49ed2d",
+    "semantic_hash": "2226a14cc3e01892679a3d578f49ed2d"
+  },
+  "scripts/inspect-glb.mjs": {
+    "mtime": 1792916705.368989,
+    "seen": 1793112110.5925634,
+    "ast_hash": "c224c974c9567e7a391002b71b3d7f76",
+    "semantic_hash": "c224c974c9567e7a391002b71b3d7f76"
+  },
+  "scripts/inspect-original-rig.py": {
+    "mtime": 1792916705.369989,
+    "seen": 1793112110.5925634,
+    "ast_hash": "25b3935f1e52581904e51e530d15a413",
+    "semantic_hash": "25b3935f1e52581904e51e530d15a413"
+  },
+  "scripts/render-original-review.py": {
+    "mtime": 1792917337.6650002,
+    "seen": 1793112110.5935645,
+    "ast_hash": "6061188c23d58aa3ffdef471576ee403",
+    "semantic_hash": "6061188c23d58aa3ffdef471576ee403"
+  },
+  "scripts/sync-mobile.mjs": {
+    "mtime": 1793004674.7734256,
+    "seen": 1793112110.5935645,
+    "ast_hash": "46e3f36193719c6768c028a00af694ab",
+    "semantic_hash": "46e3f36193719c6768c028a00af694ab"
+  },
+  "scripts/sync-vendor.mjs": {
+    "mtime": 1793003902.4519138,
+    "seen": 1793112110.5935645,
+    "ast_hash": "6b98671825b9ae18a65aada85b493d47",
+    "semantic_hash": "6b98671825b9ae18a65aada85b493d47"
+  },
+  "server.mjs": {
+    "mtime": 1792920432.3864892,
+    "seen": 1793112110.5935645,
+    "ast_hash": "52688aca5a34ed677e2d3f303a92dde4",
+    "semantic_hash": "52688aca5a34ed677e2d3f303a92dde4"
+  },
+  "tests/assets.test.mjs": {
+    "mtime": 1792916705.369989,
+    "seen": 1793112110.5935645,
+    "ast_hash": "28fe88df9beadb22fb75851e27494f6f",
+    "semantic_hash": "28fe88df9beadb22fb75851e27494f6f"
+  },
+  "tests/character-state.test.mjs": {
+    "mtime": 1792938209.9309742,
+    "seen": 1793112110.5935645,
+    "ast_hash": "3e347c2ca6862a7cd86df6aa09a9d3c7",
+    "semantic_hash": "3e347c2ca6862a7cd86df6aa09a9d3c7"
+  },
+  "tests/chat-media.test.mjs": {
+    "mtime": 1793004183.741155,
+    "seen": 1793112110.5935645,
+    "ast_hash": "df6bc13094b648e5b5b490c43cf53297",
+    "semantic_hash": "df6bc13094b648e5b5b490c43cf53297"
+  },
+  "tests/messages.test.mjs": {
+    "mtime": 1792997376.2907305,
+    "seen": 1793112110.5935645,
+    "ast_hash": "d310158783c842fcf3349c8b7dbd9043",
+    "semantic_hash": "d310158783c842fcf3349c8b7dbd9043"
+  },
+  "tests/original-assets.test.mjs": {
+    "mtime": 1792917352.3194733,
+    "seen": 1793112110.5945625,
+    "ast_hash": "d67203bc1c5f38912ac619f81e5c6055",
+    "semantic_hash": "d67203bc1c5f38912ac619f81e5c6055"
+  },
+  "tests/push.test.mjs": {
+    "mtime": 1793005099.4610212,
+    "seen": 1793112110.5945625,
+    "ast_hash": "52a77d40b8364842df5efbb6c008b029",
+    "semantic_hash": "52a77d40b8364842df5efbb6c008b029"
+  },
+  "tests/room-activities.test.mjs": {
+    "mtime": 1792944057.4985754,
+    "seen": 1793112110.5945625,
+    "ast_hash": "4c81c5b9a57b4b50084f17fb3e59c72b",
+    "semantic_hash": "4c81c5b9a57b4b50084f17fb3e59c72b"
+  },
+  "tests/room-time.test.mjs": {
+    "mtime": 1792938209.931975,
+    "seen": 1793112110.5945625,
+    "ast_hash": "9d05c66a0fcd32b69371675db8ec1073",
+    "semantic_hash": "9d05c66a0fcd32b69371675db8ec1073"
+  },
+  "tests/shared-home.test.mjs": {
+    "mtime": 1793116470.3766532,
+    "seen": 1793116616.2584474,
+    "ast_hash": "521c7a283affe1b5e6f295d1aa304a92",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1793112091.3112755,
+    "seen": 1793112139.0442169,
+    "ast_hash": "42cfc89d11d6fabe8e975c411b328456",
+    "semantic_hash": ""
+  },
+  "DESIGN.md": {
+    "mtime": 1793005244.3093967,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3887141c34b72293ee1d58497c5cb1d2",
+    "semantic_hash": ""
+  },
+  "MOBILE.md": {
+    "mtime": 1793116563.0998397,
+    "seen": 1793116616.2584474,
+    "ast_hash": "56c62b9b8cc1005c853255f6de2ed527",
+    "semantic_hash": ""
+  },
+  "PRODUCT.md": {
+    "mtime": 1793116563.0998397,
+    "seen": 1793116616.2584474,
+    "ast_hash": "468f4ae01a36a99ae4df0a0f28e85556",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793116563.0998397,
+    "seen": 1793116616.2584474,
+    "ast_hash": "7169696a06c12a9fd71b4c2777f408d9",
+    "semantic_hash": ""
+  },
+  "backend/README.md": {
+    "mtime": 1793116563.0998397,
+    "seen": 1793116616.2584474,
+    "ast_hash": "73101103db0669eccb49a0b15b8484a3",
+    "semantic_hash": ""
+  },
+  "ios/App/CapApp-SPM/README.md": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d256f6b5922d4249607779141357d565",
+    "semantic_hash": ""
+  },
+  "public/assets/Nunito-OFL.txt": {
+    "mtime": 1792916705.2089863,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ee247edc304c64bb2135b9b6ec9a203f",
+    "semantic_hash": ""
+  },
+  "public/assets/characters/How To Use.txt": {
+    "mtime": 1792916705.2909882,
+    "seen": 1793112139.0442169,
+    "ast_hash": "925847cf8a863d01b94ac27c5fc7b221",
+    "semantic_hash": ""
+  },
+  "public/assets/characters/License.txt": {
+    "mtime": 1792916705.30299,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cf29d86525a0162217282bb4ff657e63",
+    "semantic_hash": ""
+  },
+  "public/index.html": {
+    "mtime": 1793116497.7399457,
+    "seen": 1793116616.2584474,
+    "ast_hash": "0096192a0f4f867dd738bf67d0ad8130",
+    "semantic_hash": ""
+  },
+  "public/quaternius.html": {
+    "mtime": 1792920707.303826,
+    "seen": 1793112139.0442169,
+    "ast_hash": "06c95f7a00d08c43616b3ac0d67402f1",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-hdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f7a80786dd355bd39014e58027aa6e19",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-mdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b8c72969bc1f78aab71a76035360d4af",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f87e988387b07d843905f38b084929fb",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxxhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "055a69553b16b0bf5f72094a2e459fc7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-hdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5eb10d16c81338abe8bbc033d49638a8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-mdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d855a76a5070c8e6fcfd83a27549bdce",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "df100b2a36bdb98b711cca58941728de",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2c1b668364e815256f67b71dcdfa4d6e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxxhdpi/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b5b1b22b59abe686c1df0d74a423d034",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable/splash.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1956941339dd5fe36d5c66601c89a08d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "73b1e06d769fa08a9c3b8328cc15fd75",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f43e5674865a00186dd76183cf1f2f8e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7ed1b3739b83215d0c4a0b4a7f2dcab4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5b77e8aec8b17eed320a97567c7cb8bf",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a49547a32c7d9b529af607b033811d81",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5689511ee4e41a367d0342f37ac48bdf",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "15cdded29b9877ac98c5931024c5da5d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c890fa4af62a63486d5dea62441ce7ab",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a3285eeaedda8201f04e7737b9df8421",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "4e9584ecc16d1fc75afb798688ce576f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "14cde87848553e24d7106f56eb8ceb6f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9e029293ab1ae8e3a6a7b7d0b7177e46",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ed3696b7c52d9747411a475dbe3fa34a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "85addb4159ecd3f76f02fbacd5ec86de",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0ac741c9e1701ee14dd05ea131f7cfd8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png": {
+    "mtime": 1791382562.0,
+    "seen": 1793112139.0442169,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_affectionate.png": {
+    "mtime": 1792943666.6189306,
+    "seen": 1793112139.0442169,
+    "ast_hash": "4505d5162805bcda3440831f06d239e9",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_angry.png": {
+    "mtime": 1792943666.7495475,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f841edad725074df2504d80226ea8e73",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_annoyed.png": {
+    "mtime": 1792943666.8465455,
+    "seen": 1793112139.0442169,
+    "ast_hash": "396e68ea65a1476892e608a93af75577",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_confused.png": {
+    "mtime": 1792943666.8235476,
+    "seen": 1793112139.0442169,
+    "ast_hash": "424b2eb007a9faa4c6aecd4c25027747",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_crying.png": {
+    "mtime": 1792943666.8695457,
+    "seen": 1793112139.0442169,
+    "ast_hash": "40157debdb493adf450dc9ac764cc729",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_excited.png": {
+    "mtime": 1792943666.8945465,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a887261558eb7af3a576c80ed367bcbf",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_happy.png": {
+    "mtime": 1792943666.5899267,
+    "seen": 1793112139.0442169,
+    "ast_hash": "76146adebd566ccc79c4531abde21574",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_kissing.png": {
+    "mtime": 1792943666.941685,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a4eddbb589137be409d19420dee45248",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_laughing.png": {
+    "mtime": 1792943666.7255478,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5588ddb84c3f15d2fe6aee4464dae71b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_neutral.png": {
+    "mtime": 1792943666.558927,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0521168f88125285649169b5a0cd74ea",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_sad.png": {
+    "mtime": 1792943666.6455479,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fe93da33dfec62cffe65e1e257935b02",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_shy.png": {
+    "mtime": 1792943666.7995472,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2b8a51fa87921f07685b47df8d7afd32",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_sleepy.png": {
+    "mtime": 1792943666.7015476,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f3bedc48ffb1a25e2cdc4dbb181638cf",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_surprised.png": {
+    "mtime": 1792943666.675547,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0a0237720b35121871f2f13d5c7d1e00",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_winking.png": {
+    "mtime": 1792943666.9175503,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8bcbbb5127127f9a550639572e47b9b7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_long_hair_worried.png": {
+    "mtime": 1792943666.7755485,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c5459ad88cdd296b211485c65f105092",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_affectionate.png": {
+    "mtime": 1792943667.1485512,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3042fceb23542d4efd66617e2e6cb801",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_angry.png": {
+    "mtime": 1792943667.2711742,
+    "seen": 1793112139.0442169,
+    "ast_hash": "477c4c702eec75de828d8287b27c36c2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_annoyed.png": {
+    "mtime": 1792943667.3693166,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8c07b31336f681a76a756e53245ca047",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_confused.png": {
+    "mtime": 1792943667.3441725,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bcc62272244e8edc40dfcdd894308292",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_crying.png": {
+    "mtime": 1792943667.3933167,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f3fb2bdb762d373a4116ff6d9be4e235",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_excited.png": {
+    "mtime": 1792943667.417317,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8561e502b9f44acbc0e204ba9744be64",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_happy.png": {
+    "mtime": 1792943667.1205475,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dc825e70ab51c8f33dd04949640d65d9",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_kissing.png": {
+    "mtime": 1792943667.467318,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3b504916377f37cda5c33d26af3b748a",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_laughing.png": {
+    "mtime": 1792943667.2461727,
+    "seen": 1793112139.0442169,
+    "ast_hash": "931d74dd8fd6fffa2e2c81ddc032f0e8",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_neutral.png": {
+    "mtime": 1792943667.0925462,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9af15849c1f7b2ac7dbf7902aaa5cf71",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_sad.png": {
+    "mtime": 1792943667.172665,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b16668037661b4ac4a099f36a544c784",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_shy.png": {
+    "mtime": 1792943667.3201725,
+    "seen": 1793112139.0442169,
+    "ast_hash": "13efbcfcf2e50fae1cd708ea5cb6328b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_sleepy.png": {
+    "mtime": 1792943667.222172,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f86b01865f6e2dfc3f714ec782455103",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_surprised.png": {
+    "mtime": 1792943667.1981728,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f958de304cee286a63418dee3c1a1963",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_winking.png": {
+    "mtime": 1792943667.4433188,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ccdc0ca4a04fef88fd14969e018ab912",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_homebody_short_hair_worried.png": {
+    "mtime": 1792943667.296174,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3f05e4ac754b4c94b74953f19dffaa20",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_idle_long_hair.png": {
+    "mtime": 1792943666.9675493,
+    "seen": 1793112139.0442169,
+    "ast_hash": "54e8db754c8b41ee2013615a4f3fec93",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/cuddling_idle_short_hair.png": {
+    "mtime": 1792943667.491315,
+    "seen": 1793112139.0442169,
+    "ast_hash": "29863094a9f03f125526b5b3a0309ed5",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_affectionate.png": {
+    "mtime": 1792942276.170317,
+    "seen": 1793112139.0442169,
+    "ast_hash": "72f33b73882232209dc8e600356bf765",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_angry.png": {
+    "mtime": 1792942276.269596,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bb535a50f812f373beeb037528ac92e1",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_annoyed.png": {
+    "mtime": 1792942276.345355,
+    "seen": 1793112139.0442169,
+    "ast_hash": "93c2ee1e2ccd6275331aed0a2e153df1",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_confused.png": {
+    "mtime": 1792942276.3288355,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a6c2f7594bbe5f0df6fa93a2d34eead6",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_crying.png": {
+    "mtime": 1792942276.362384,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ae70346cf3500e79824027f2d4ce1d6e",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_excited.png": {
+    "mtime": 1792942276.3824103,
+    "seen": 1793112139.0442169,
+    "ast_hash": "859d1588f0ec102c06f7ca88fbc100f5",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_happy.png": {
+    "mtime": 1792942276.1522923,
+    "seen": 1793112139.0442169,
+    "ast_hash": "60a58eb074d7808ce342cb7603e5e83c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_kissing.png": {
+    "mtime": 1792942276.422005,
+    "seen": 1793112139.0442169,
+    "ast_hash": "6297912fcb9bce9d9bd0f7dc19157700",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_laughing.png": {
+    "mtime": 1792942276.2480626,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d504b224591a21e9ed1140091ce537b4",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_neutral.png": {
+    "mtime": 1792942276.135268,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7dc3c1dc3c4dcc0e2b5d030a811d7242",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_sad.png": {
+    "mtime": 1792942276.1888363,
+    "seen": 1793112139.0442169,
+    "ast_hash": "231b429fd8e495440d0a4135e4cd1627",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_shy.png": {
+    "mtime": 1792942276.3108077,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b82e4d4a7cbdfcb72bb596cd510c9b48",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_sleepy.png": {
+    "mtime": 1792942276.2263584,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7bf3dc791f2e46eeef6a4d83b5ea6ddd",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_surprised.png": {
+    "mtime": 1792942276.2088377,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0838ff30d9fe1c8b8cf37f790325c9ff",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_winking.png": {
+    "mtime": 1792942276.398937,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b807a0bd851bd66f8fb86174fe317aff",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_long_hair_worried.png": {
+    "mtime": 1792942276.2913587,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2295a15c1bc786562376784de16a86ec",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_affectionate.png": {
+    "mtime": 1792942276.5377285,
+    "seen": 1793112139.0442169,
+    "ast_hash": "99cc07adf07a2e860b3e0e2554688b8c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_angry.png": {
+    "mtime": 1792942276.629383,
+    "seen": 1793112139.0442169,
+    "ast_hash": "20f715569d0c5abf82dd89b4a687e2f8",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_annoyed.png": {
+    "mtime": 1792942276.7068393,
+    "seen": 1793112139.0442169,
+    "ast_hash": "83188e6ab9373a8416e96e36ad796c85",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_confused.png": {
+    "mtime": 1792942276.6879644,
+    "seen": 1793112139.0442169,
+    "ast_hash": "652f84bfddb206f8d8703250566df639",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_crying.png": {
+    "mtime": 1792942276.726875,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f569d61155ab0a5507095bc3e8ac1836",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_excited.png": {
+    "mtime": 1792942276.7449067,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dd549a7eeeaa11e3d33a0fd63f92e89e",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_happy.png": {
+    "mtime": 1792942276.521209,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d321a34bd7784d7635f77beed75dfe33",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_kissing.png": {
+    "mtime": 1792942276.7819843,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1a95a40cb0a040a1622f44d468d94070",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_laughing.png": {
+    "mtime": 1792942276.610366,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9b81a27ee745ba01a3311e3683d6d4c4",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_neutral.png": {
+    "mtime": 1792942276.5011735,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b9310fef6dd48eff1ab900039a26e35f",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_sad.png": {
+    "mtime": 1792942276.556758,
+    "seen": 1793112139.0442169,
+    "ast_hash": "45133d62b81b687f305270ccc5f7174c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_shy.png": {
+    "mtime": 1792942276.6659338,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c8aff5624b439356a909f345c21942b8",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_sleepy.png": {
+    "mtime": 1792942276.5938246,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fb0bfa4291c44cb836eefd9ec986913d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_surprised.png": {
+    "mtime": 1792942276.574779,
+    "seen": 1793112139.0442169,
+    "ast_hash": "39d29b68384745c909183fce255c74f6",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_winking.png": {
+    "mtime": 1792942276.7633305,
+    "seen": 1793112139.0442169,
+    "ast_hash": "50346849132efbfaf7d74a228205e572",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_homebody_short_hair_worried.png": {
+    "mtime": 1792942276.6494083,
+    "seen": 1793112139.0442169,
+    "ast_hash": "faecc9a3e495f47db829674373d1e0e2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_idle_long_hair.png": {
+    "mtime": 1792942276.4400258,
+    "seen": 1793112139.0442169,
+    "ast_hash": "41cdf2ee97905cddd70c954a153c638d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_idle_short_hair.png": {
+    "mtime": 1792942276.80353,
+    "seen": 1793112139.0442169,
+    "ast_hash": "04f5fb2d4955f00159a296f263817cd2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/gaming_thumb_taps.png": {
+    "mtime": 1792941083.276244,
+    "seen": 1793112139.0442169,
+    "ast_hash": "07478a592c301619cabacd6771f50dd2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_affectionate.png": {
+    "mtime": 1792942275.4588284,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8ee001b4496e99cf7f3417a422cbe4e6",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_angry.png": {
+    "mtime": 1792942275.5454354,
+    "seen": 1793112139.0442169,
+    "ast_hash": "32b617e8a476f02d6a46954462f99f72",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_annoyed.png": {
+    "mtime": 1792942275.623056,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5a25ac17ad62b9d194e03f96d1da1bc7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_confused.png": {
+    "mtime": 1792942275.604021,
+    "seen": 1793112139.0442169,
+    "ast_hash": "47e9768b8493d2f590f5f51cc4b9db00",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_crying.png": {
+    "mtime": 1792942275.6455607,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7a3e54d3407ce2744ea4b82afabdd58a",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_excited.png": {
+    "mtime": 1792942275.667107,
+    "seen": 1793112139.0442169,
+    "ast_hash": "be0b1ff84bca7af75952c0fbb0b779de",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_happy.png": {
+    "mtime": 1792942275.4367828,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a73f762479021489ac047a2e2dcb75c2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_kissing.png": {
+    "mtime": 1792942275.706149,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c12e7c9df4e6c4fbe9ec09440886fc7b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_laughing.png": {
+    "mtime": 1792942275.5274186,
+    "seen": 1793112139.0442169,
+    "ast_hash": "e888d26d67c2667b8ab1685fc80e20f5",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_neutral.png": {
+    "mtime": 1792942275.4202688,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dff99e862aec3981496cd7df30e7bf22",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_sad.png": {
+    "mtime": 1792942275.475349,
+    "seen": 1793112139.0442169,
+    "ast_hash": "57eeb746484893e284e9b0f5f3ca619f",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_shy.png": {
+    "mtime": 1792942275.582493,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0dbc001707f26271786b59f9b6637ec7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_sleepy.png": {
+    "mtime": 1792942275.5089035,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a81084c3196ec9c9f098440b21d0b2a9",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_surprised.png": {
+    "mtime": 1792942275.4923794,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d0aa0471741ff45f47ff4f32ddc63503",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_winking.png": {
+    "mtime": 1792942275.6891205,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d170c31fe118a02f43262749f7d460a7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_long_hair_worried.png": {
+    "mtime": 1792942275.5624647,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5521f898a105e1f06d2653936aef2065",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_affectionate.png": {
+    "mtime": 1792942275.8254614,
+    "seen": 1793112139.0442169,
+    "ast_hash": "289f2494735b696166ad9f2e46e29004",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_angry.png": {
+    "mtime": 1792942275.9143639,
+    "seen": 1793112139.0442169,
+    "ast_hash": "20cd99e201b387d62fed6b1bbba49f85",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_annoyed.png": {
+    "mtime": 1792942275.9837127,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b4d7f389a1fe7ae60d3b1e6dcf9d870c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_confused.png": {
+    "mtime": 1792942275.96568,
+    "seen": 1793112139.0442169,
+    "ast_hash": "036ee237f9aece18ff734a40f16d9ff9",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_crying.png": {
+    "mtime": 1792942276.0002508,
+    "seen": 1793112139.0442169,
+    "ast_hash": "052ebbc679943ad5757a7d57ba4f4876",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_excited.png": {
+    "mtime": 1792942276.0177715,
+    "seen": 1793112139.0442169,
+    "ast_hash": "4503e0eeaf7ccaed4a9b19a843f16355",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_happy.png": {
+    "mtime": 1792942275.807425,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b66c20f871f4540751c9b22ea0ecdf42",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_kissing.png": {
+    "mtime": 1792942276.053823,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0b226c195e07a46ea6e62833ae97aa0f",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_laughing.png": {
+    "mtime": 1792942275.8965516,
+    "seen": 1793112139.0442169,
+    "ast_hash": "18c6ff33e75be96ca5fb4db1b9ee6e51",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_neutral.png": {
+    "mtime": 1792942275.791404,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fa2ac0fb43c602a1650094ef1833fe5b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_sad.png": {
+    "mtime": 1792942275.8404784,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fd13a254b9729d5bfbd6eb52c8be010d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_shy.png": {
+    "mtime": 1792942275.9491553,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1217e909f32a280fcd08e41899802ecf",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_sleepy.png": {
+    "mtime": 1792942275.8740182,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b801ae362a324eaa9a3d72301cd98b49",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_surprised.png": {
+    "mtime": 1792942275.8579936,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b0284b430adc700abcdf4290d147f182",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_winking.png": {
+    "mtime": 1792942276.0347977,
+    "seen": 1793112139.0442169,
+    "ast_hash": "22264dd7521f99941014166e6e4486f7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_homebody_short_hair_worried.png": {
+    "mtime": 1792942275.9321399,
+    "seen": 1793112139.0442169,
+    "ast_hash": "258ce95ca02ca5d10507b97aa3398c76",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_idle_long_hair.png": {
+    "mtime": 1792942275.7303152,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ab0e95f04111631dd168e6b769ee9146",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_idle_short_hair.png": {
+    "mtime": 1792942276.077692,
+    "seen": 1793112139.0442169,
+    "ast_hash": "43c2e5c03ce6ccee096ab0bdfb53e4c1",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/reading_page_turn.png": {
+    "mtime": 1792940641.9727442,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3c6af5ac228111a90a5923b83ae6583c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_hand_shift_long_hair.png": {
+    "mtime": 1792942279.8335888,
+    "seen": 1793112139.0442169,
+    "ast_hash": "11bb58407fc0edc08ea2ba63209297ef",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_hand_shift_short_hair.png": {
+    "mtime": 1792942280.0172067,
+    "seen": 1793112139.0442169,
+    "ast_hash": "64aff96c14fb1c6f0ee300cceb2e1dce",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_affectionate.png": {
+    "mtime": 1792942274.6345675,
+    "seen": 1793112139.0442169,
+    "ast_hash": "74b61090f3adf46aac1ea98f0f91ad7a",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_angry.png": {
+    "mtime": 1792942274.7477553,
+    "seen": 1793112139.0442169,
+    "ast_hash": "63175ee7dabc185563101380ad97170d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_annoyed.png": {
+    "mtime": 1792942274.8635275,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c29d8c03215d4b5a3587a75b6808f387",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_confused.png": {
+    "mtime": 1792942274.8379552,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a74427629f03cc5312a35544b0b39532",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_crying.png": {
+    "mtime": 1792942274.8875577,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ce5002ecee880b06a5054b1ed25d7a0c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_excited.png": {
+    "mtime": 1792942274.9156308,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7853382d7aa30aee8a6da275beae3077",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_happy.png": {
+    "mtime": 1792942274.6065557,
+    "seen": 1793112139.0442169,
+    "ast_hash": "20e3ba87507be719ed8095ab09906755",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_kissing.png": {
+    "mtime": 1792942274.9576862,
+    "seen": 1793112139.0442169,
+    "ast_hash": "72a1f54d81408627fbea84d30a7925b2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_laughing.png": {
+    "mtime": 1792942274.717192,
+    "seen": 1793112139.0442169,
+    "ast_hash": "97846060ea45c8f83670af387fbcb084",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_neutral.png": {
+    "mtime": 1792942274.584237,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1b78046b75500fa04d25bdb60ce498f4",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_sad.png": {
+    "mtime": 1792942274.655598,
+    "seen": 1793112139.0442169,
+    "ast_hash": "949b9cc6f719b51165d850b36d32ecd2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_shy.png": {
+    "mtime": 1792942274.807386,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0194820dd0a06464ff099e8410684e26",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_sleepy.png": {
+    "mtime": 1792942274.697164,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7de5f5708b52b8a558a9d77acd30c469",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_surprised.png": {
+    "mtime": 1792942274.677624,
+    "seen": 1793112139.0442169,
+    "ast_hash": "29d2a17c3d23dc5a15b299739d6eb014",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_winking.png": {
+    "mtime": 1792942274.9356627,
+    "seen": 1793112139.0442169,
+    "ast_hash": "77bc34e54c16c53b795b72b76becab6b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_long_hair_worried.png": {
+    "mtime": 1792942274.7808404,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c395084450167e1b19fa3430036577ce",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_affectionate.png": {
+    "mtime": 1792942275.1004348,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b702bcbb0b24902c07e124167ab731d2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_angry.png": {
+    "mtime": 1792942275.1900408,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5670a14125b355fdd1a653e9b85f36e5",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_annoyed.png": {
+    "mtime": 1792942275.2670352,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3c6a640949b5419f863ad17b1a02b99b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_confused.png": {
+    "mtime": 1792942275.2460105,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d081874d1a28e95804bffada4f0b3f8c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_crying.png": {
+    "mtime": 1792942275.2860532,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5cc08f215adfd991e4322636267eb00e",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_excited.png": {
+    "mtime": 1792942275.3025837,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dd1885fbb01a8ab417635c5749fca71f",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_happy.png": {
+    "mtime": 1792942275.0829072,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ec205e1dfb0b654c641d3b2ed1cba07b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_kissing.png": {
+    "mtime": 1792942275.338144,
+    "seen": 1793112139.0442169,
+    "ast_hash": "490cc83daae876bae5466b22782bef28",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_laughing.png": {
+    "mtime": 1792942275.1720178,
+    "seen": 1793112139.0442169,
+    "ast_hash": "37bf288649421b91d14fb369b845ab9b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_neutral.png": {
+    "mtime": 1792942275.064876,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5f9b63c42026d2a558c083aa46b41cd8",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_sad.png": {
+    "mtime": 1792942275.1194544,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7a2855c014d620046974f2ee318bd217",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_shy.png": {
+    "mtime": 1792942275.225991,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0d048a0f5c00eb03918d00ab4ceaeea1",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_sleepy.png": {
+    "mtime": 1792942275.1549888,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ce4b8b8eff058b121c565f6cbe03d300",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_surprised.png": {
+    "mtime": 1792942275.1369708,
+    "seen": 1793112139.0442169,
+    "ast_hash": "6c7c36167514e5cb3c8e3d31f274e790",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_winking.png": {
+    "mtime": 1792942275.3216298,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b549ffef4cde01f32e1de9ddebcafcc8",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_homebody_short_hair_worried.png": {
+    "mtime": 1792942275.2089622,
+    "seen": 1793112139.0442169,
+    "ast_hash": "78883ef3bf3176c067eef9bc0a3a93bc",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_idle_long_hair.png": {
+    "mtime": 1792942274.9852562,
+    "seen": 1793112139.0442169,
+    "ast_hash": "51f7fcbe3710b5824eeed4bd0f96e43b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/sitting_idle_short_hair.png": {
+    "mtime": 1792942275.3596787,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c2cebf488115d5fb6b76750eb638a4ef",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/study_motion_long_hair.png": {
+    "mtime": 1792941974.065042,
+    "seen": 1793112139.0442169,
+    "ast_hash": "aad5fbe548193313ea7e69e5ae2a2bb5",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/study_motion_short_hair.png": {
+    "mtime": 1792941733.6035323,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a4689ec0608a0df6e61629abe12da67c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_affectionate.png": {
+    "mtime": 1792941971.173862,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8b760696f8c2168c9a8a93b40a2efbce",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_angry.png": {
+    "mtime": 1792941971.267765,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b9ddba102a10531bd6b409f261236d11",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_annoyed.png": {
+    "mtime": 1792941971.3496165,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7ee14463d2a0b5bf85f0427a2a87c84d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_confused.png": {
+    "mtime": 1792941971.3307626,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1bab2e1d2c891fa8bf9a506e71c85f0b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_crying.png": {
+    "mtime": 1792941971.370143,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c98d194e42c32ca27560b03d9f0d9e3d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_excited.png": {
+    "mtime": 1792941971.3928523,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8a8b0b1e6ca71e52e16ac3e9c05c21a6",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_happy.png": {
+    "mtime": 1792941971.1553252,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0105fad35381e2e14a595583e3ddd7f3",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_kissing.png": {
+    "mtime": 1792941971.4314723,
+    "seen": 1793112139.0442169,
+    "ast_hash": "321275345cff228ccfec69e89867c007",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_laughing.png": {
+    "mtime": 1792941971.2482386,
+    "seen": 1793112139.0442169,
+    "ast_hash": "acfab97daa2578a174ec745a51c058db",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_neutral.png": {
+    "mtime": 1792941971.1363046,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8dd68bfa20385e1fb0cc45ecc28872d7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_sad.png": {
+    "mtime": 1792941971.192684,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c018d3457a409c784d53a2b67b342dac",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_shy.png": {
+    "mtime": 1792941971.3120193,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5f8ade0cd64539186ea3c6554e56531d",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_sleepy.png": {
+    "mtime": 1792941971.2307303,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5269b2e3a62d78ba20fc87c719dddacb",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_surprised.png": {
+    "mtime": 1792941971.2117121,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8b8fbb482aceaff0a510f5e6a933bc1c",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_winking.png": {
+    "mtime": 1792941971.4124296,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c813bfd7977924579384467c74927bd9",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_long_hair_worried.png": {
+    "mtime": 1792941971.293326,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9bbfd0636673ecfb53afdde475b31213",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_affectionate.png": {
+    "mtime": 1792941771.0702827,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b9476c5a33c1df24c04e042ad56570ef",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_angry.png": {
+    "mtime": 1792941771.1796124,
+    "seen": 1793112139.0442169,
+    "ast_hash": "092246fcf12df04820f18fd7f7405948",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_annoyed.png": {
+    "mtime": 1792941771.2627323,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c133c4a049743f5fca77fc52e7bdd21e",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_confused.png": {
+    "mtime": 1792941771.2401989,
+    "seen": 1793112139.0442169,
+    "ast_hash": "93b2452634b1b02ffc2435f73ff18e26",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_crying.png": {
+    "mtime": 1792941771.2827508,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0b9328cdbf13a789b66bce12b7643380",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_excited.png": {
+    "mtime": 1792941771.3042965,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7430a673448059dcfa1e6ec9bd05bd38",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_happy.png": {
+    "mtime": 1792941771.0472572,
+    "seen": 1793112139.0442169,
+    "ast_hash": "60d9234702efbda43c80cbd5e5d723db",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_kissing.png": {
+    "mtime": 1792941771.346196,
+    "seen": 1793112139.0442169,
+    "ast_hash": "07d1dd86d8882569234dae09bc57ed41",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_laughing.png": {
+    "mtime": 1792941771.1570067,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cbb67181f1eda2086407d13870855dc2",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_neutral.png": {
+    "mtime": 1792941771.0252254,
+    "seen": 1793112139.0442169,
+    "ast_hash": "088c33819bc7bd83cecf35c93799b352",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_sad.png": {
+    "mtime": 1792941771.0903113,
+    "seen": 1793112139.0442169,
+    "ast_hash": "81757b96f80bc9d51da22b815fe13012",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_shy.png": {
+    "mtime": 1792941771.2201705,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1b4bb099f68c4c51805f94b50e8e387b",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_sleepy.png": {
+    "mtime": 1792941771.1339552,
+    "seen": 1793112139.0442169,
+    "ast_hash": "31768f53f03309744384fd1c5e49def7",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_surprised.png": {
+    "mtime": 1792941771.112921,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a70970ed93c56645095bfa3bbfea0e30",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_winking.png": {
+    "mtime": 1792941771.3253174,
+    "seen": 1793112139.0442169,
+    "ast_hash": "e8f4382c7d4fc4baefb8d4ca8510bfb1",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_homebody_short_hair_worried.png": {
+    "mtime": 1792941771.199835,
+    "seen": 1793112139.0442169,
+    "ast_hash": "84519a5b816dece7374bd83bf89d1d95",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_idle_long_hair.png": {
+    "mtime": 1792941971.4515166,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bd8e2afcf6e5d94db377af5edab387e3",
+    "semantic_hash": ""
+  },
+  "public/assets/activities/studying_idle_short_hair.png": {
+    "mtime": 1792941771.3677914,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0646218815959c6ff2d3d6b9599ff41f",
+    "semantic_hash": ""
+  },
+  "public/assets/characters/Preview.jpg": {
+    "mtime": 1792916705.3059857,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7a1477c28b614c6adf0a7ce89ba84fe8",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_idle_long_hair.png": {
+    "mtime": 1792936368.807006,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0fed5f0c5ed1b8ca5dfb45e82b701176",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_idle_short_hair.png": {
+    "mtime": 1792936368.8889644,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3ad20defa2987afa55b23babd0a91633",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_affectionate.png": {
+    "mtime": 1792936080.36692,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c5238cef0ccdbcf681e29673fd197995",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_angry.png": {
+    "mtime": 1792936080.4209208,
+    "seen": 1793112139.0442169,
+    "ast_hash": "888f1bf0a34bb41bf1ad93d39eb388cf",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_annoyed.png": {
+    "mtime": 1792936080.4659176,
+    "seen": 1793112139.0442169,
+    "ast_hash": "72d03663c52594aebfbd8c0566b2cca8",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_confused.png": {
+    "mtime": 1792936080.453919,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c9451628184b36dd3f0a7343185f880e",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_crying.png": {
+    "mtime": 1792936080.4769204,
+    "seen": 1793112139.0442169,
+    "ast_hash": "71c792faabe6ec6a1e615a260a360697",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_excited.png": {
+    "mtime": 1792936080.488922,
+    "seen": 1793112139.0442169,
+    "ast_hash": "de85811646355f7455fea70a22644ae0",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_happy.png": {
+    "mtime": 1792936080.3519216,
+    "seen": 1793112139.0442169,
+    "ast_hash": "01d7e2b4b4ed95d6b64ccf6e58624a50",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_kissing.png": {
+    "mtime": 1792936080.5159185,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5e145e171490b04b73358dc7c771caa4",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_laughing.png": {
+    "mtime": 1792936080.4109192,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c9b226802da90e820f05c5180f678466",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_neutral.png": {
+    "mtime": 1792936080.333919,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cb6de5f67e3c16b400d1ce973e841bef",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_sad.png": {
+    "mtime": 1792936080.3789184,
+    "seen": 1793112139.0442169,
+    "ast_hash": "708546e12a4f4537b21dc94954c64355",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_shy.png": {
+    "mtime": 1792936080.4429193,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5a2b4bbff69fb54a6813ce2ef5436e94",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_sleepy.png": {
+    "mtime": 1792936080.400919,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bb8f849fea0b19ef10b4b6016df4d468",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_surprised.png": {
+    "mtime": 1792936080.3899195,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fea14949653097483be482d59d00680c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_winking.png": {
+    "mtime": 1792936080.5039186,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2279067a37c4ec8a52f8f70ed06cce45",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_long_hair_worried.png": {
+    "mtime": 1792936080.4329195,
+    "seen": 1793112139.0442169,
+    "ast_hash": "603f6eb6b264d6b6bf2d6382b9352197",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_affectionate.png": {
+    "mtime": 1792936080.5469193,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cd27fbf85f736727b7b454cf9a8f920f",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_angry.png": {
+    "mtime": 1792936080.5979192,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cb424a6fa134ee6ae1f32108b481da82",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_annoyed.png": {
+    "mtime": 1792936080.6369188,
+    "seen": 1793112139.0442169,
+    "ast_hash": "38aabef9282c66d4f30f05a012a04992",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_confused.png": {
+    "mtime": 1792936080.6269183,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9016d379ca5056927aaf199b2fb9fe44",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_crying.png": {
+    "mtime": 1792936080.645918,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0e183efb38da73732ce2fa45d3351278",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_excited.png": {
+    "mtime": 1792936080.6559193,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8491c57f32e230a32e4268153ac84a4c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_happy.png": {
+    "mtime": 1792936080.5369189,
+    "seen": 1793112139.0442169,
+    "ast_hash": "09ce872fbc59cd75d5a53e0248131631",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_kissing.png": {
+    "mtime": 1792936080.6739187,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dbac9d6026312b957dcd9fc392469a07",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_laughing.png": {
+    "mtime": 1792936080.5879183,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5e3f4697a79e1f7fc6122ac952356e66",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_neutral.png": {
+    "mtime": 1792936080.5259192,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5a1f1da257c689a8f552e9c573c0407e",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_sad.png": {
+    "mtime": 1792936080.5569203,
+    "seen": 1793112139.0442169,
+    "ast_hash": "6d3f01e2ea2e90842f18757119ac0b19",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_shy.png": {
+    "mtime": 1792936080.6179185,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1e1b47dba3b135fc856b001eb4402b01",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_sleepy.png": {
+    "mtime": 1792936080.5789175,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c6b3f67b2d4901998d336bf6ecf4f8c0",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_surprised.png": {
+    "mtime": 1792936080.568919,
+    "seen": 1793112139.0442169,
+    "ast_hash": "93ca4a7450fc61e207d75d8077ee3bdc",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_winking.png": {
+    "mtime": 1792936080.6649196,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8790cc9aa7488c151b46e23c21e388fe",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/fullbody_short_hair_worried.png": {
+    "mtime": 1792936080.6079192,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c4ecbce820267bfa7da3f403dbf96f73",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_idle_long_hair.png": {
+    "mtime": 1792938210.6493165,
+    "seen": 1793112139.0442169,
+    "ast_hash": "52c954f8167af74ec26c18ed994489ec",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_idle_short_hair.png": {
+    "mtime": 1792938210.7603114,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9a4ad5e5719c70613f32facf2998a904",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_affectionate.png": {
+    "mtime": 1792938074.2855043,
+    "seen": 1793112139.0442169,
+    "ast_hash": "df9813784068faf960e9ade1e902ea56",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_angry.png": {
+    "mtime": 1792938074.383506,
+    "seen": 1793112139.0442169,
+    "ast_hash": "41bfb971c4cf7c7ba1a67325de56c664",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_annoyed.png": {
+    "mtime": 1792938074.4635086,
+    "seen": 1793112139.0442169,
+    "ast_hash": "6e1da14c90f198d85afe3df697c3c91c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_confused.png": {
+    "mtime": 1792938074.4455063,
+    "seen": 1793112139.0442169,
+    "ast_hash": "89f0b10ca41dbb837162a95d3f474b98",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_crying.png": {
+    "mtime": 1792938074.4825056,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2a352bca9a54fea5b72451b5616df2c2",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_excited.png": {
+    "mtime": 1792938074.5025058,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1c783f29d5d01014b92995ddffcdf8a1",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_happy.png": {
+    "mtime": 1792938074.2645085,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c82de8df260641ae1da7c29c195b8874",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_kissing.png": {
+    "mtime": 1792938074.5415084,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8568651d1cb1c67e86f794cd335f2fd6",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_laughing.png": {
+    "mtime": 1792938074.3645089,
+    "seen": 1793112139.0442169,
+    "ast_hash": "2af77e01ac06a3c920addf26113de31a",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_neutral.png": {
+    "mtime": 1792938074.239507,
+    "seen": 1793112139.0442169,
+    "ast_hash": "35ff6c56dbc458f71d0ea50171d02b70",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_sad.png": {
+    "mtime": 1792938074.306507,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ddb9d9fe12b3ef7ab43cc7729c8c0d07",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_shy.png": {
+    "mtime": 1792938074.4265087,
+    "seen": 1793112139.0442169,
+    "ast_hash": "21ff28e0dcd42b030306e0fc1de9ec97",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_sleepy.png": {
+    "mtime": 1792938074.3455071,
+    "seen": 1793112139.0442169,
+    "ast_hash": "8bbb265378a1e8b8502c5bd263729e20",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_surprised.png": {
+    "mtime": 1792938074.3255045,
+    "seen": 1793112139.0442169,
+    "ast_hash": "34a07b6ea6a326f196d217ed0818e497",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_winking.png": {
+    "mtime": 1792938074.521505,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ac5aec5074bffa07e8634e5ab9fd82f6",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_long_hair_worried.png": {
+    "mtime": 1792938074.4035077,
+    "seen": 1793112139.0442169,
+    "ast_hash": "03c0620c2bd53021d4cef877d7fb0f9b",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_affectionate.png": {
+    "mtime": 1792938074.5985088,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ffec8fd43eb5be5ae232cc87536e528e",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_angry.png": {
+    "mtime": 1792938074.692505,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d6d1ef917887542e1adeaa2fbba42e38",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_annoyed.png": {
+    "mtime": 1792938074.7705061,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3983f38d293fb45fe70439e01f810420",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_confused.png": {
+    "mtime": 1792938074.750506,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1d72c2c4b0430e45782259400afa0a0e",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_crying.png": {
+    "mtime": 1792938074.789506,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5f033dd821128382355e9e2649b7fb0a",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_excited.png": {
+    "mtime": 1792938074.8085065,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c538fc992cc33f47c5febaf25ffde627",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_happy.png": {
+    "mtime": 1792938074.579505,
+    "seen": 1793112139.0442169,
+    "ast_hash": "880aff50ef2f11aa49632f7b0f092d54",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_kissing.png": {
+    "mtime": 1792938074.845506,
+    "seen": 1793112139.0442169,
+    "ast_hash": "721c9730d9617e433eea20db4b4e078c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_laughing.png": {
+    "mtime": 1792938074.6745107,
+    "seen": 1793112139.0442169,
+    "ast_hash": "996dba8e33d117e625949d71284f5f93",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_neutral.png": {
+    "mtime": 1792938074.5605042,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9d62051a514aefe53530060e9f26f4ad",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_sad.png": {
+    "mtime": 1792938074.6175053,
+    "seen": 1793112139.0442169,
+    "ast_hash": "56ccf4d877abc6b26bcb09dd620d5c8c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_shy.png": {
+    "mtime": 1792938074.7295053,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bc594409147f51767142488ac70a901c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_sleepy.png": {
+    "mtime": 1792938074.655505,
+    "seen": 1793112139.0442169,
+    "ast_hash": "caf7b75c488fb242d01e13c9c8b0f6f4",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_surprised.png": {
+    "mtime": 1792938074.6355052,
+    "seen": 1793112139.0442169,
+    "ast_hash": "52566c351c8036c900bea48ca84639b1",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_winking.png": {
+    "mtime": 1792938074.8265047,
+    "seen": 1793112139.0442169,
+    "ast_hash": "271dce71ff820867986e02a60a4b07e4",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/homebody_short_hair_worried.png": {
+    "mtime": 1792938074.7105072,
+    "seen": 1793112139.0442169,
+    "ast_hash": "20aa1405c6522a77989cd5039fb68679",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/idle_long_hair.png": {
+    "mtime": 1792919454.282028,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3e5f09fbb217eef1fb245d8eaaa8b64b",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/idle_short_hair.png": {
+    "mtime": 1792919454.391024,
+    "seen": 1793112139.0442169,
+    "ast_hash": "bd995e401be5e8da9e285651374d3c82",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_affectionate.png": {
+    "mtime": 1792919454.193025,
+    "seen": 1793112139.0442169,
+    "ast_hash": "77f529c05e93ec7e15a8ce33db14584e",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_angry.png": {
+    "mtime": 1792919454.2230248,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0f83d067885308cbbaf469d8af38579f",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_annoyed.png": {
+    "mtime": 1792919454.2460248,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0d767dd98aebf003cc69d38a91ae49d7",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_confused.png": {
+    "mtime": 1792919454.2410245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c78fd6bdcebb1f7bd0e83fbb4250dce5",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_crying.png": {
+    "mtime": 1792919454.251025,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b53820c4372f8695f6e82c0d6541771c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_excited.png": {
+    "mtime": 1792919454.2570245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "fcf508265fb57fc1cd8b955257f9be63",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_happy.png": {
+    "mtime": 1792919454.1870265,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9b2471b2c7eb6865cd67b2b585d912c3",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_kissing.png": {
+    "mtime": 1792919454.268026,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7644a2c66ea1f482b851fe31364ffd70",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_laughing.png": {
+    "mtime": 1792919454.2170243,
+    "seen": 1793112139.0442169,
+    "ast_hash": "83d22efdd531a7739fd6d039791de569",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_neutral.png": {
+    "mtime": 1792919454.1750255,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a0e7e3a0c097c8aa6e1453007b42811b",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_sad.png": {
+    "mtime": 1792919454.2000253,
+    "seen": 1793112139.0442169,
+    "ast_hash": "7164b62350e80801be430955da58bacb",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_shy.png": {
+    "mtime": 1792919454.2350235,
+    "seen": 1793112139.0442169,
+    "ast_hash": "24acba147ca96a4f5d858b52d4f32182",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_sleepy.png": {
+    "mtime": 1792919454.2120247,
+    "seen": 1793112139.0442169,
+    "ast_hash": "9eda85dcc3c56ae680d3c376f1fef805",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_surprised.png": {
+    "mtime": 1792919454.206025,
+    "seen": 1793112139.0442169,
+    "ast_hash": "5bcd34df355f30ec8863126f92c015c9",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_winking.png": {
+    "mtime": 1792919454.2620263,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d9f96a89a05bc509ea11a728fc1b224a",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_long_hair_worried.png": {
+    "mtime": 1792919454.229025,
+    "seen": 1793112139.0442169,
+    "ast_hash": "db16d27d3f60e65829d2cf2459083a15",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_affectionate.png": {
+    "mtime": 1792919454.3080244,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0e8ba2b921ca33a85443025429a977f7",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_angry.png": {
+    "mtime": 1792919454.335025,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1828e3f0be6be5c0070feba814f9a227",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_annoyed.png": {
+    "mtime": 1792919454.3560245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "cad544658aabfee7cc20f54ec089c96d",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_confused.png": {
+    "mtime": 1792919454.3500245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "3ab6a7260af8b366f31443de4343a26c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_crying.png": {
+    "mtime": 1792919454.3610244,
+    "seen": 1793112139.0442169,
+    "ast_hash": "ddab3d0e975b95bb0b5e6d0f988ea81d",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_excited.png": {
+    "mtime": 1792919454.3660247,
+    "seen": 1793112139.0442169,
+    "ast_hash": "e929066fa3e05dd26873cb05a7806ebf",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_happy.png": {
+    "mtime": 1792919454.3020244,
+    "seen": 1793112139.0442169,
+    "ast_hash": "c25364b81b0aa9c3e8ffe2379e47e63c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_kissing.png": {
+    "mtime": 1792919454.3770237,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a4b430ac01d229e67b87b321d82db33d",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_laughing.png": {
+    "mtime": 1792919454.3300247,
+    "seen": 1793112139.0442169,
+    "ast_hash": "daf285755f16cb0769472d88e211167b",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_neutral.png": {
+    "mtime": 1792919454.296024,
+    "seen": 1793112139.0442169,
+    "ast_hash": "f8a9ac5a668dfecd151f0ded16e657c9",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_sad.png": {
+    "mtime": 1792919454.3150246,
+    "seen": 1793112139.0442169,
+    "ast_hash": "dbd79affc4eccd36147ab4000c442948",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_shy.png": {
+    "mtime": 1792919454.3460238,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d6fb794d717ad1212d47f06baf09885c",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_sleepy.png": {
+    "mtime": 1792919454.3260245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "d3afabd1bcd1325ff824dcf1125325d0",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_surprised.png": {
+    "mtime": 1792919454.3210247,
+    "seen": 1793112139.0442169,
+    "ast_hash": "6b8bed203b3d4eed6f4eed8282fbc3da",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_winking.png": {
+    "mtime": 1792919454.371026,
+    "seen": 1793112139.0442169,
+    "ast_hash": "a9023a6ac710326b760d524a1feb2ad5",
+    "semantic_hash": ""
+  },
+  "public/assets/couple/portrait_short_hair_worried.png": {
+    "mtime": 1792919454.3400245,
+    "seen": 1793112139.0442169,
+    "ast_hash": "0f835feaf5e0a18517ac5003ed4590d0",
+    "semantic_hash": ""
+  },
+  "public/assets/home/morning.png": {
+    "mtime": 1792920755.075791,
+    "seen": 1793112139.0442169,
+    "ast_hash": "11e3239f505b755d872abdbd6bf303ef",
+    "semantic_hash": ""
+  },
+  "public/assets/home/night.png": {
+    "mtime": 1792920755.1497903,
+    "seen": 1793112139.0442169,
+    "ast_hash": "1cb57aac0b9f32c2e36877289f1f46f3",
+    "semantic_hash": ""
+  },
+  "backend/simple-profile-choice.sql": {
+    "mtime": 1793116497.7409465,
+    "seen": 1793116616.2584474,
+    "ast_hash": "41d31cf2950f8acf02285eb43d7bc94f",
+    "semantic_hash": ""
+  },
+  "package-lock.json": {
+    "mtime": 1793003413.817798,
+    "seen": 1793112139.0442169,
+    "ast_hash": "b4e324c8811d2cc7ad6006a2dd178f4e",
+    "semantic_hash": ""
+  }
+}

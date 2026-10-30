@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "turnFrame": true,
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true,
+      "readingOnly": true
+    },
+    {
+      "name": "mobile",
+      "turnFrame": true,
+      "expressions": true,
+      "pause": true,
+      "hidden": true,
+      "reducedMotion": true,
+      "readingOnly": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "sprite_long_hair_front": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_long_hair_back": {
+   "frame": {
+    "x": 26,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_long_hair_left": {
+   "frame": {
+    "x": 52,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_long_hair_right": {
+   "frame": {
+    "x": 78,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_short_hair_front": {
+   "frame": {
+    "x": 0,
+    "y": 42,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_short_hair_back": {
+   "frame": {
+    "x": 26,
+    "y": 42,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_short_hair_left": {
+   "frame": {
+    "x": 52,
+    "y": 42,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  },
+  "sprite_short_hair_right": {
+   "frame": {
+    "x": 78,
+    "y": 42,
+    "w": 24,
+    "h": 40
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 40
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 40
+   }
+  }
+ },
+ "meta": {
+  "app": "pxl",
+  "image": "couple_sprites.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 102,
+   "h": 82
+  },
+  "scale": "1"
+ }
+}

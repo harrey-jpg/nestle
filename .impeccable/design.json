@@ -1,15 +1,231 @@
 {
-  "name": "Nestle avatar preview",
-  "mode": "operate",
-  "authority": "User-supplied Nestle design PDF; existing pink and dark themes",
-  "tokens": {
-    "pink": {"background":"#FCE8EC","surface":"#FFF7EE","text":"#5A1E3C","secondary":"#7D4A62","accent":"#B83D63"},
-    "dark": {"background":"#1F1520","surface":"#2C1E2D","text":"#F7E9E4","secondary":"#CDB5BC","accent":"#D98A9B"},
-    "font":"Nunito",
-    "controlRadius":16,
-    "swatchTarget":44
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T09:34:09.446Z",
+  "title": "Design System: Nestle",
+  "extensions": {
+    "colorMeta": {
+      "day-background": {
+        "role": "neutral",
+        "displayName": "Day background"
+      },
+      "day-surface": {
+        "role": "neutral",
+        "displayName": "Day surface"
+      },
+      "day-text": {
+        "role": "neutral",
+        "displayName": "Day text"
+      },
+      "day-secondary": {
+        "role": "neutral",
+        "displayName": "Day secondary"
+      },
+      "day-accent": {
+        "role": "primary",
+        "displayName": "Day accent"
+      },
+      "day-border": {
+        "role": "neutral",
+        "displayName": "Day border"
+      },
+      "day-focus": {
+        "role": "primary",
+        "displayName": "Day focus"
+      },
+      "day-sage": {
+        "role": "secondary",
+        "displayName": "Day sage"
+      },
+      "day-room-fallback": {
+        "role": "neutral",
+        "displayName": "Day room fallback"
+      },
+      "night-background": {
+        "role": "neutral",
+        "displayName": "Night background"
+      },
+      "night-surface": {
+        "role": "neutral",
+        "displayName": "Night surface"
+      },
+      "night-text": {
+        "role": "neutral",
+        "displayName": "Night text"
+      },
+      "night-secondary": {
+        "role": "neutral",
+        "displayName": "Night secondary"
+      },
+      "night-accent": {
+        "role": "primary",
+        "displayName": "Night accent"
+      },
+      "night-border": {
+        "role": "neutral",
+        "displayName": "Night border"
+      },
+      "night-focus": {
+        "role": "primary",
+        "displayName": "Night focus"
+      },
+      "night-sage": {
+        "role": "secondary",
+        "displayName": "Night sage"
+      },
+      "night-room-fallback": {
+        "role": "neutral",
+        "displayName": "Night room fallback"
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Compact Nestle brand."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Home title."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Introductory supporting copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Room controls."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "night-crossfade",
+        "value": "opacity 1s linear",
+        "purpose": "Night artwork opacity follows the local-time blend."
+      },
+      {
+        "name": "character-blink",
+        "value": "blink 4.8s step-end infinite",
+        "purpose": "Three-frame approved idle strip; second partner delay -1.9s. Pause, hidden pages, and reduced motion stop animation."
+      },
+      {
+        "name": "loading-breathe",
+        "value": "breathe 1.4s ease-in-out infinite",
+        "purpose": "Loading dot changes opacity to .3 and scale to .7 at midpoint; disabled with reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width:1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "max-width:760px"
+      },
+      {
+        "name": "narrow",
+        "value": "max-width:360px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "min-width:761px and max-height:820px"
+      },
+      {
+        "name": "very-short-desktop",
+        "value": "max-height:580px and min-width:761px"
+      }
+    ],
+    "focus": {
+      "value": "3px solid var(--focus); outline-offset:4px",
+      "purpose": "Buttons, links, and disclosure summary."
+    },
+    "lighting": {
+      "source": "public/room-time.mjs",
+      "phaseStarts": {
+        "morning": "06:00",
+        "afternoon": "11:00",
+        "evening": "17:00",
+        "night": "20:00"
+      },
+      "dawn": "06:00–07:00",
+      "dusk": "17:00–20:00",
+      "blend": "t*t*(3-2*t)",
+      "clockRefreshMs": 15000,
+      "themeThreshold": "nightMix > 0.5",
+      "characterBrightness": "1 - nightMix * .25"
+    },
+    "characterGrounding": {
+      "background": "#402b2b55",
+      "filter": "blur(1px)",
+      "purpose": "Small oval beneath each sprite; not a UI elevation shadow."
+    }
   },
-  "layout":"Desktop room and customization panel; stacked on phones",
-  "motion":"Real asset clips; paused initially for prefers-reduced-motion",
-  "assets":"User-provided Quaternius glTFs, original procedural room geometry, self-hosted Nunito with OFL"
+  "components": [
+    {
+      "name": "Room control",
+      "kind": "button",
+      "refersTo": "room-control",
+      "description": "Pause or fullscreen; 44px minimum targets.",
+      "html": "<button class=\"ds-room-control\" type=\"button\" aria-label=\"Pause character movement\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5v14M16 5v14\"/></svg><span>Pause</span></button>",
+      "css": ".ds-room-control{display:flex;align-items:center;justify-content:center;gap:7px;min-width:44px;min-height:44px;padding:8px 10px;border:0;background:transparent;color:var(--text,#5a1e3c);border-radius:8px;font:750 13px Nunito,ui-rounded,'Segoe UI',sans-serif;cursor:pointer}.ds-room-control svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}.ds-room-control:hover{background:var(--bg,#fce8ec)}.ds-room-control:focus-visible{outline:3px solid var(--focus,#90274c);outline-offset:4px}.ds-room-control:active{transform:translateY(1px)}.ds-room-control:disabled{opacity:.65;cursor:default}"
+    },
+    {
+      "name": "Retry button",
+      "kind": "button",
+      "refersTo": "retry-button",
+      "description": "Reload after an asset-loading failure.",
+      "html": "<button class=\"ds-retry\" type=\"button\">Try again</button>",
+      "css": ".ds-retry{min-height:44px;padding:9px 20px;border:1px solid var(--border,#dfbdc8);border-radius:8px;background:var(--bg,#fce8ec);color:var(--text,#5a1e3c);font:750 15px Nunito,ui-rounded,'Segoe UI',sans-serif;cursor:pointer}.ds-retry:focus-visible{outline:3px solid var(--focus,#90274c);outline-offset:4px}"
+    },
+    {
+      "name": "Room container",
+      "kind": "card",
+      "refersTo": "room-container",
+      "description": "Flat bordered shell around the fixed 4:3 room.",
+      "html": "<section class=\"ds-home\"><div class=\"ds-heading\">The living room</div><div class=\"ds-stage\"></div></section>",
+      "css": ".ds-home{width:100%;overflow:hidden;border:1px solid var(--border,#dfbdc8);border-radius:14px;background:var(--surface,#fff7ee);color:var(--text,#5a1e3c);font-family:Nunito,ui-rounded,'Segoe UI',sans-serif}.ds-heading{padding:12px 18px;min-height:48px;font-size:15px;font-weight:800}.ds-stage{aspect-ratio:4/3;background:var(--room-fallback,#e6c8aa)}"
+    },
+    {
+      "name": "Room clock",
+      "kind": "custom",
+      "description": "Phase and localized clock text; clock digits use tabular numerals.",
+      "html": "<div class=\"ds-clock\"><span>Morning</span><span class=\"ds-divider\" aria-hidden=\"true\"></span><time>8:30 AM</time></div>",
+      "css": ".ds-clock{display:flex;align-items:center;gap:7px;font:13px Nunito,ui-rounded,'Segoe UI',sans-serif;color:var(--secondary,#7a4b60);white-space:nowrap}.ds-clock time{color:var(--text,#5a1e3c);font-weight:800;font-variant-numeric:tabular-nums}.ds-divider{height:12px;width:1px;background:var(--border,#dfbdc8);margin:0 3px}"
+    },
+    {
+      "name": "Lighting disclosure",
+      "kind": "custom",
+      "description": "Native disclosure explains the device-clock schedule.",
+      "html": "<details class=\"ds-light\"><summary>About the light</summary><p>Morning begins at 6 am. Afternoon starts at 11 am, evening at 5 pm, and night at 8 pm. Sunlight fades gently in the evening and returns over the first hour of the morning. No location access is needed.</p></details>",
+      "css": ".ds-light{max-width:340px;text-align:right;color:var(--secondary,#7a4b60);font:12px/1.6 Nunito,ui-rounded,'Segoe UI',sans-serif}.ds-light summary{cursor:pointer;min-height:32px;color:var(--text,#5a1e3c);font-weight:750}.ds-light p{margin-top:8px;text-align:left}.ds-light summary:focus-visible{outline:3px solid var(--focus,#90274c);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Our little home",
+    "overview": "A quiet fixed-view home pairs an original soft illustrated room with the user's approved pixel characters. Domestic life games, including the user-named Adorable Home reference, inform the calm atmosphere; the room artwork is original. Dusty rose, sage, cream, and honey wood give way to plum ambient light and warm lamps as device-local time changes.\n\nThe main preview replaces the rejected 3D direction. Rounded, legible controls sit outside the illustration, leaving the room and two personal characters as the focus. Approved faces, hairstyles, outfits, colors, expressions, and mole placements remain intact.",
+    "keyCharacteristics": [
+      "Original illustrated room with crisp pixel characters.",
+      "Fixed composition with automatic local-time lighting.",
+      "Restrained Nunito interface and rounded controls outside the art.",
+      "Subtle blinking, with pause and reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The Local Light Rule",
+        "body": "The interface switches to night colors when the calculated night blend exceeds one half; it does not offer a manual theme selector.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the approved pixel designs and exact mole placements.",
+      "**Do** keep the two original room images in matching fixed compositions.",
+      "**Do** keep controls outside the illustration and respect reduced motion.",
+      "**Do** derive lighting from device-local time without location access."
+    ],
+    "donts": [
+      "**Don't** restore the rejected 3D preview as the main experience.",
+      "**Don't** smooth pixel sprites or replace the room with copied game artwork.",
+      "**Don't** imply furnishing edits, connected partner actions, weather, authenticated ownership, or cross-device social features exist."
+    ]
+  }
 }

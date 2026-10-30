@@ -1,0 +1,167 @@
+{
+  "results": [
+    {
+      "name": "desktop-morning",
+      "phase": "morning",
+      "mix": "0.00000",
+      "overflow": false,
+      "time": "9:00 AM",
+      "disabled": true,
+      "room": {
+        "x": 241,
+        "y": 396.890625,
+        "width": 958,
+        "height": 718.5,
+        "top": 396.890625,
+        "right": 1199,
+        "bottom": 1115.390625,
+        "left": 241
+      },
+      "sprites": [
+        {
+          "x": 430.5,
+          "y": 704.515625,
+          "width": 100,
+          "height": 260,
+          "top": 704.515625,
+          "right": 530.5,
+          "bottom": 964.515625,
+          "left": 430.5
+        },
+        {
+          "x": 928.65625,
+          "y": 704.515625,
+          "width": 100,
+          "height": 260,
+          "top": 704.515625,
+          "right": 1028.65625,
+          "bottom": 964.515625,
+          "left": 928.65625
+        }
+      ]
+    },
+    {
+      "name": "desktop-night",
+      "phase": "night",
+      "mix": "1.00000",
+      "overflow": false,
+      "time": "10:00 PM",
+      "disabled": true,
+      "room": {
+        "x": 241,
+        "y": 396.890625,
+        "width": 958,
+        "height": 718.5,
+        "top": 396.890625,
+        "right": 1199,
+        "bottom": 1115.390625,
+        "left": 241
+      },
+      "sprites": [
+        {
+          "x": 430.5,
+          "y": 704.515625,
+          "width": 100,
+          "height": 260,
+          "top": 704.515625,
+          "right": 530.5,
+          "bottom": 964.515625,
+          "left": 430.5
+        },
+        {
+          "x": 928.65625,
+          "y": 704.515625,
+          "width": 100,
+          "height": 260,
+          "top": 704.515625,
+          "right": 1028.65625,
+          "bottom": 964.515625,
+          "left": 928.65625
+        }
+      ]
+    },
+    {
+      "name": "mobile-morning",
+      "phase": "morning",
+      "mix": "0.00000",
+      "overflow": false,
+      "time": "9:00 AM",
+      "disabled": true,
+      "room": {
+        "x": 19,
+        "y": 482.046875,
+        "width": 352,
+        "height": 264,
+        "top": 482.046875,
+        "right": 371,
+        "bottom": 746.046875,
+        "left": 19
+      },
+      "sprites": [
+        {
+          "x": 82,
+          "y": 560.609375,
+          "width": 50,
+          "height": 130,
+          "top": 560.609375,
+          "right": 132,
+          "bottom": 690.609375,
+          "left": 82
+        },
+        {
+          "x": 265.03125,
+          "y": 560.609375,
+          "width": 50,
+          "height": 130,
+          "top": 560.609375,
+          "right": 315.03125,
+          "bottom": 690.609375,
+          "left": 265.03125
+        }
+      ]
+    },
+    {
+      "name": "mobile-night",
+      "phase": "night",
+      "mix": "1.00000",
+      "overflow": false,
+      "time": "10:00 PM",
+      "disabled": true,
+      "room": {
+        "x": 19,
+        "y": 482.046875,
+        "width": 352,
+        "height": 264,
+        "top": 482.046875,
+        "right": 371,
+        "bottom": 746.046875,
+        "left": 19
+      },
+      "sprites": [
+        {
+          "x": 82,
+          "y": 560.609375,
+          "width": 50,
+          "height": 130,
+          "top": 560.609375,
+          "right": 132,
+          "bottom": 690.609375,
+          "left": 82
+        },
+        {
+          "x": 265.03125,
+          "y": 560.609375,
+          "width": 50,
+          "height": 130,
+          "top": 560.609375,
+          "right": 315.03125,
+          "bottom": 690.609375,
+          "left": 265.03125
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "controls": "pass",
+  "clockTransition": "pass"
+}

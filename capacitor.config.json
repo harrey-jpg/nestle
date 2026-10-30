@@ -1,0 +1,8 @@
+{
+  "appId": "app.nestle.privatehome",
+  "appName": "Nestle",
+  "webDir": "dist-mobile",
+  "experimental": {"ios":{"spm":{"packageOptions":{"@capacitor-firebase/messaging":{"symlink":true}}}}},
+  "plugins": {"FirebaseMessaging":{"presentationOptions":[]}},
+  "ios": {"contentInset":"automatic"}
+}

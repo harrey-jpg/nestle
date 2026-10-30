@@ -1,0 +1,76 @@
+{
+  "status": "Approved full-body revision 02; all 16 expressions per character approved on 2026-10-25",
+  "source": "../full-body.px.js",
+  "width": 64,
+  "height": 128,
+  "footAnchor": {
+    "x": 32,
+    "y": 127
+  },
+  "expressions": [
+    "neutral",
+    "happy",
+    "affectionate",
+    "sad",
+    "surprised",
+    "sleepy",
+    "laughing",
+    "angry",
+    "worried",
+    "shy",
+    "confused",
+    "annoyed",
+    "crying",
+    "excited",
+    "winking",
+    "kissing"
+  ],
+  "characters": [
+    {
+      "id": "long_hair",
+      "files": {
+        "neutral": "sprites/fullbody_long_hair_neutral.png",
+        "happy": "sprites/fullbody_long_hair_happy.png",
+        "affectionate": "sprites/fullbody_long_hair_affectionate.png",
+        "sad": "sprites/fullbody_long_hair_sad.png",
+        "surprised": "sprites/fullbody_long_hair_surprised.png",
+        "sleepy": "sprites/fullbody_long_hair_sleepy.png",
+        "laughing": "sprites/fullbody_long_hair_laughing.png",
+        "angry": "sprites/fullbody_long_hair_angry.png",
+        "worried": "sprites/fullbody_long_hair_worried.png",
+        "shy": "sprites/fullbody_long_hair_shy.png",
+        "confused": "sprites/fullbody_long_hair_confused.png",
+        "annoyed": "sprites/fullbody_long_hair_annoyed.png",
+        "crying": "sprites/fullbody_long_hair_crying.png",
+        "excited": "sprites/fullbody_long_hair_excited.png",
+        "winking": "sprites/fullbody_long_hair_winking.png",
+        "kissing": "sprites/fullbody_long_hair_kissing.png"
+      },
+      "sheet": "fullbody_long_hair_sheet.png",
+      "frames": "fullbody_long_hair_sheet.json"
+    },
+    {
+      "id": "short_hair",
+      "files": {
+        "neutral": "sprites/fullbody_short_hair_neutral.png",
+        "happy": "sprites/fullbody_short_hair_happy.png",
+        "affectionate": "sprites/fullbody_short_hair_affectionate.png",
+        "sad": "sprites/fullbody_short_hair_sad.png",
+        "surprised": "sprites/fullbody_short_hair_surprised.png",
+        "sleepy": "sprites/fullbody_short_hair_sleepy.png",
+        "laughing": "sprites/fullbody_short_hair_laughing.png",
+        "angry": "sprites/fullbody_short_hair_angry.png",
+        "worried": "sprites/fullbody_short_hair_worried.png",
+        "shy": "sprites/fullbody_short_hair_shy.png",
+        "confused": "sprites/fullbody_short_hair_confused.png",
+        "annoyed": "sprites/fullbody_short_hair_annoyed.png",
+        "crying": "sprites/fullbody_short_hair_crying.png",
+        "excited": "sprites/fullbody_short_hair_excited.png",
+        "winking": "sprites/fullbody_short_hair_winking.png",
+        "kissing": "sprites/fullbody_short_hair_kissing.png"
+      },
+      "sheet": "fullbody_short_hair_sheet.png",
+      "frames": "fullbody_short_hair_sheet.json"
+    }
+  ]
+}

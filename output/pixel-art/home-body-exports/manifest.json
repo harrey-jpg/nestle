@@ -1,0 +1,82 @@
+{
+  "status": "Approved fuller home-body design on 2026-10-25; current room character style",
+  "source": "../home-body.px.js",
+  "width": 80,
+  "height": 208,
+  "headOffset": {
+    "x": 8,
+    "y": 0
+  },
+  "footAnchor": {
+    "x": 40,
+    "y": 206
+  },
+  "expressions": [
+    "neutral",
+    "happy",
+    "affectionate",
+    "sad",
+    "surprised",
+    "sleepy",
+    "laughing",
+    "angry",
+    "worried",
+    "shy",
+    "confused",
+    "annoyed",
+    "crying",
+    "excited",
+    "winking",
+    "kissing"
+  ],
+  "inspiration": "Original pixel body art informed by the official Adorable Home character lineup; no game art reused",
+  "reference": "https://hyperbeard.com/wp-content/uploads/2023/08/08_AH_Screenshot_08.jpg",
+  "characters": [
+    {
+      "id": "long_hair",
+      "files": {
+        "neutral": "sprites/homebody_long_hair_neutral.png",
+        "happy": "sprites/homebody_long_hair_happy.png",
+        "affectionate": "sprites/homebody_long_hair_affectionate.png",
+        "sad": "sprites/homebody_long_hair_sad.png",
+        "surprised": "sprites/homebody_long_hair_surprised.png",
+        "sleepy": "sprites/homebody_long_hair_sleepy.png",
+        "laughing": "sprites/homebody_long_hair_laughing.png",
+        "angry": "sprites/homebody_long_hair_angry.png",
+        "worried": "sprites/homebody_long_hair_worried.png",
+        "shy": "sprites/homebody_long_hair_shy.png",
+        "confused": "sprites/homebody_long_hair_confused.png",
+        "annoyed": "sprites/homebody_long_hair_annoyed.png",
+        "crying": "sprites/homebody_long_hair_crying.png",
+        "excited": "sprites/homebody_long_hair_excited.png",
+        "winking": "sprites/homebody_long_hair_winking.png",
+        "kissing": "sprites/homebody_long_hair_kissing.png"
+      },
+      "sheet": "homebody_long_hair_sheet.png",
+      "frames": "homebody_long_hair_sheet.json"
+    },
+    {
+      "id": "short_hair",
+      "files": {
+        "neutral": "sprites/homebody_short_hair_neutral.png",
+        "happy": "sprites/homebody_short_hair_happy.png",
+        "affectionate": "sprites/homebody_short_hair_affectionate.png",
+        "sad": "sprites/homebody_short_hair_sad.png",
+        "surprised": "sprites/homebody_short_hair_surprised.png",
+        "sleepy": "sprites/homebody_short_hair_sleepy.png",
+        "laughing": "sprites/homebody_short_hair_laughing.png",
+        "angry": "sprites/homebody_short_hair_angry.png",
+        "worried": "sprites/homebody_short_hair_worried.png",
+        "shy": "sprites/homebody_short_hair_shy.png",
+        "confused": "sprites/homebody_short_hair_confused.png",
+        "annoyed": "sprites/homebody_short_hair_annoyed.png",
+        "crying": "sprites/homebody_short_hair_crying.png",
+        "excited": "sprites/homebody_short_hair_excited.png",
+        "winking": "sprites/homebody_short_hair_winking.png",
+        "kissing": "sprites/homebody_short_hair_kissing.png"
+      },
+      "sheet": "homebody_short_hair_sheet.png",
+      "frames": "homebody_short_hair_sheet.json"
+    }
+  ]
+}

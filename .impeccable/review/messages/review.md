@@ -1,0 +1,7 @@
+# Private text messages
+
+Added Home/Messages navigation, one saved private conversation, unread count, paginated earlier history, multiline composer, sender/recipient bubbles, timestamps and accurate Sent/Delivered/Seen states. Offline drafts and failed-message IDs persist locally; retry is explicit and idempotent. User text is escaped by DOM textContent. The existing shared home, fixed identities and autonomous actions remain intact.
+
+All 27 automated checks passed. A separate live-cloud QA conversation verified sender identity and access rules, saved messages, idempotent sends, recipient-only receipts, immutable bodies/timestamps and history pagination. Two browser sessions passed empty-state, unread, cross-session delivery, Delivered versus Seen, text escaping, reload/retry without duplicates, offline drafts/reconnect, multiline/keyboard send and desktop/mobile navigation checks. Visual review covered desktop/mobile filled conversation and mobile empty state; long-history flex layout and 44px Retry targets were corrected and confirmed. No page errors or horizontal overflow remained.
+
+Your actual conversation received no test messages. QA client/table/function access and temporary devices were revoked after verification. The connector rejected destructive cleanup with an expired-request-state error; the disabled fixture remains inaccessible until optional administrator cleanup. The app remains local, and physical phones/deployment, camera, photos, map and push notifications are not part of this step.

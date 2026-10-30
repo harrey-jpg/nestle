@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "studying_idle_short_hair_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 1600
+  },
+  "studying_idle_short_hair_1": {
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 120
+  },
+  "studying_idle_short_hair_2": {
+   "frame": {
+    "x": 256,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 208
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 208
+   },
+   "duration": 1300
+  }
+ },
+ "meta": {
+  "app": "pxl",
+  "image": "studying_idle_short_hair.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 384,
+   "h": 208
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "studying_idle_short_hair",
+    "from": 0,
+    "to": 2,
+    "direction": "forward"
+   }
+  ]
+ }
+}

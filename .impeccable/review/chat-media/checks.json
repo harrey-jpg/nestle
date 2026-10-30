@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "mobile: GIF upload and preview, emoji insertion, signed media rendering, photo-only send, unsafe file rejection, retry after reload without duplicate upload, notification preview state and no overflow",
+    "desktop: GIF upload and preview, emoji insertion, signed media rendering, photo-only send, unsafe file rejection, retry after reload without duplicate upload, notification preview state and no overflow"
+  ],
+  "errors": []
+}

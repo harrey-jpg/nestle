@@ -1,0 +1,37 @@
+# Private two-profile home
+
+## Current connection flow: choose a name
+
+Apply `simple-profile-choice.sql` to the existing project to replace invite-gated setup with “Is this Harry or Alexa?”. The frontend sends only `p_profile` to `connect_nestle`; its existing optional invite argument remains compatible but is ignored by the updated implementation. No connected device or setup link is needed. Anonymous sessions remain bound to one fixed profile, and revoked installations stay revoked. Choosing a name is self-service, not proof of identity; anyone who can reach the app can choose either profile.
+
+This session prepared the migration but has no administrator connection to deploy it. Apply it in the Supabase SQL editor before testing the new flow. Existing profiles, messages, old invite records and bindings are retained. The following sections describe the original deployed setup and historical verification, not validation of this new migration.
+
+Project: `nvokjxwkqtgwdsyozspz`. Source: `private-home.sql`. Additive migrations `private_two_profile_home` and `private_home_foreign_key_indexes` were applied through Supabase MCP. Existing Home entries, preferences and notes were preserved.
+
+Supabase anonymous sign-in identifies an installation without email/password; it does not grant home access alone. Devices also need non-revoked approval and an immutable profile binding. Exactly Alexa and Harry rows exist. RLS and column-scoped grants permit only the linked profile’s expression to be updated. Clients cannot add profiles, rebind devices, edit revisions or directly set room poses.
+
+Private setup links use random 256-bit codes, stored hashed, bound to one profile, atomic single-use and valid seven days. Initial unused owner links live in the ignored `.cache/private-home/Open your home.html`; never commit that file or session caches. Connected devices can issue links for their own profile only. Clearing storage requires a replacement link from an existing device, or trusted project administration if all devices are lost. Revoked devices cannot reapprove themselves.
+
+Privileged implementations live in the unexposed `nestle_private` schema with empty search paths, explicit ownership checks and restricted EXECUTE grants. Public RPC wrappers are security invoker. Shared routine updates are transaction-locked, time-appropriate in Asia/Manila and limited to once per minute. Polling shares expressions without moving the visible scene.
+
+Live checks proved two-profile sync, stranger denial, partner-write/rebinding/direct-pose-write denial, scoped and single-use links, concurrent-edit protection and immediate revocation. All four temporary installations were revoked; valid tokens were then confirmed unable to read/write/advance. Initial owner links remain unused. Existing notes were not read or changed.
+
+Security advisors flag anonymous-auth policies by design: these email-free sessions additionally require explicit approval and profile binding. The invite table intentionally has RLS and no client policies (default deny). The existing leaked-password-protection warning is unrelated to this password-free flow. See [anonymous sign-in](https://supabase.com/docs/guides/auth/auth-anonymous), [RLS](https://supabase.com/docs/guides/database/postgres/row-level-security) and [advisor guidance](https://supabase.com/docs/guides/database/database-linter). Foreign-key indexes were added; remaining performance notices identify the new indexes as not yet used.
+
+The frontend still serves localhost only. Publish it over HTTPS before using the two phones; preserve private setup fragments with the hosted origin. No service-role secret is required by the frontend. The client contains only the project URL and publishable key, with the SDK pinned and served locally.
+
+## Messages
+
+`messages.sql` defines the production `nestle_messages` table and sender/receipt RPCs. Row access requires an approved, bound installation. Insert grants cover only ID, sender and body; defaults stamp time/sequence. The send RPC derives the fixed sender and treats the UUID as an idempotency key. Existing IDs cannot be reused with different content or a different sender. Bodies are immutable; receipt updates have no direct client grant. A protected private helper stamps Delivered/Seen only for the recipient’s incoming messages, preserves existing timestamps, and returns current state on retries.
+
+Live tests used a separately named `nestle_messages_qa` conversation and QA RPCs, created from the same schema with identifier substitution. No test messages were sent into the real conversation; the production count was confirmed zero after testing. Tests covered two sessions, sender spoofing, forged timestamps, immutable bodies, revoked access, whitespace/length validation, idempotent retry, receipt semantics and history pagination. Browser tests covered unread counts, visible-only Seen, escaped HTML, offline drafts, retry after reload and navigation. Security advisor notices for anonymous auth remain intentional: device approval and fixed binding are additional predicates.
+
+The connector returned `Invalid or expired requestState` for test DELETE/DROP cleanup. A safe alternative succeeded: all client table/sequence grants and QA RPC execution grants were revoked, the temporary devices were revoked again, and the QA table was marked disabled. Explicit privilege checks confirmed no client read, insert, send or acknowledge access to QA resources. The inert QA objects remain for administrator deletion; `cleanup-message-qa.sql` lists only those objects. Production messages and existing Home data are unaffected.
+
+## Media and native notifications
+
+`chat-media.sql` adds a private 10 MB image/GIF bucket, immutable message-bound paths, media-message sending, Realtime publication and installation-owned push tokens. `chat-push.sql` queues jobs only for approved other-profile registrations and restricts claim/finish RPCs to service_role. `chat-push-wakeup.sql` provides immediate pg_net wakeups and minute-based retries, inactive without a Vault dispatch secret. Notification wakeup failure never prevents saving the message. Queue RLS intentionally has no client policy. The additional queue foreign key is indexed.
+
+The deployed chat-push Edge Function performs its own sender/device authentication or validates the server dispatch secret; unauthenticated requests cannot dispatch. Firebase credentials remain absent, so status reports configured=false. See MOBILE.md for Firebase/APNs configuration and native build requirements. Gateway JWT validation is off specifically to permit the authenticated database webhook, not to allow anonymous sends.
+
+31 automated tests pass, including mocked FCM authorization/payload/retry tests. Isolated mobile/desktop browser tests verify media and emoji composition, rendering and retry after reload. Live schema/grant checks confirmed private storage, ownership predicates, hidden tokens/jobs, protected receipts and Realtime publication. Automatic approval review rejected a production write-test transaction because it would reactivate revoked test devices and could trigger notifications. That transaction was not executed; verification devices remain revoked and the live chat received no test messages. Physical-phone delivery and signed builds are not verified. Anonymous-auth advisor notices remain expected for device-approved anonymous sessions; pg_cron system tables are outside the exposed app schema.

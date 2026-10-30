@@ -66,3 +66,25 @@ test('wave raises a hand, sitting lowers the pelvis with feet forward, and hug r
   const foot=position('Sit','Foot_R');assert.ok(foot.z>.15&&foot.y>.05&&foot.y<.2);
   assert.ok(position('Hug','Hand_R').z>.2);
 });
+
+test('continuous sleeves and trousers blend across elbow and knee bones with normalized weights',async()=>{
+  const {bytes}=await load();
+  const asset=await new GLTFLoader().parseAsync(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),'');
+  const joints=new Set();
+  asset.scene.getObjectByName('Outfit_Hoodie').traverse(node=>{
+    if(!node.isSkinnedMesh)return;
+    const indices=node.geometry.attributes.skinIndex,weights=node.geometry.attributes.skinWeight;
+    for(let v=0;v<weights.count;v++){
+      let total=0;const blended=[];
+      for(let i=0;i<4;i++){
+        const weight=weights.getComponent(v,i);total+=weight;
+        if(weight>.01&&weight<.99)blended.push(node.skeleton.bones[indices.getComponent(v,i)].name);
+      }
+      assert.ok(Math.abs(total-1)<.0001,'Skin weights must sum to one');
+      for(const side of ['L','R'])for(const pair of [[`UpperArm_${side}`,`Forearm_${side}`],[`Thigh_${side}`,`Shin_${side}`]]){
+        if(pair.every(b=>blended.includes(b)))joints.add(pair.join('/'));
+      }
+    }
+  });
+  assert.equal(joints.size,4,'Both sleeves and trouser legs need blended joints');
+});

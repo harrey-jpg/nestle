@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "name": "desktop-day",
+      "owner": "long_hair",
+      "moments": 14,
+      "persistence": true,
+      "ownExpressions": true,
+      "pause": true,
+      "awayTiming": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "desktop-night",
+      "owner": "short_hair",
+      "moments": 14,
+      "persistence": true,
+      "ownExpressions": true,
+      "pause": true,
+      "awayTiming": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-day",
+      "owner": "short_hair",
+      "moments": 14,
+      "persistence": true,
+      "ownExpressions": true,
+      "pause": true,
+      "awayTiming": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "mobile-night",
+      "owner": "long_hair",
+      "moments": 14,
+      "persistence": true,
+      "ownExpressions": true,
+      "pause": true,
+      "awayTiming": true,
+      "reducedMotion": true
+    }
+  ],
+  "errors": []
+}
